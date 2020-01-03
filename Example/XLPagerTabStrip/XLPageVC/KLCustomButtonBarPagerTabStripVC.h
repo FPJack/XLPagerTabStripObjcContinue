@@ -9,7 +9,7 @@
 #import <FPButtonBarPagerTabStripiewController.h>
 
 
-@interface KLCustomButtonBarPagerTabStripVC : XLButtonBarPagerTabStripViewController<XLPagerTabStripChildItem>
+@interface KLCustomButtonBarPagerTabStripVC : FPButtonBarPagerTabStripiewController<XLPagerTabStripChildItem>
 @property (nonatomic,strong)NSArray *VCs;
 @property (nonatomic,copy)NSString *customTitle;
 @end

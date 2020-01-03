@@ -108,6 +108,11 @@
     targetFrame.origin.x += (toFrame.origin.x - fromFrame.origin.x) * progressPercentage;
     
     self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y, targetFrame.size.width, self.selectedBar.frame.size.height);
+    if (self.selectedBarWidth > 0) {
+        CGPoint center = self.selectedBar.center;
+        self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y, self.selectedBarWidth, self.selectedBar.frame.size.height);
+        self.selectedBar.center = center;
+    }
     
     // Next, calculate and set the contentOffset of the UICollectionView
     // (so it scrolls the selectedBar into the appriopriate place given the self.selectedBarAlignment)
@@ -148,10 +153,20 @@
     if (animation){
         [UIView animateWithDuration:0.3 animations:^{
             self.selectedBar.frame = selectedBarFrame;
+            if (self.selectedBarWidth > 0) {
+                CGPoint center = self.selectedBar.center;
+                self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, self.selectedBarWidth, selectedBarFrame.size.height);
+                self.selectedBar.center = center;
+            }
         }];
     }
     else{
         self.selectedBar.frame = selectedBarFrame;
+        if (self.selectedBarWidth > 0) {
+            CGPoint center = self.selectedBar.center;
+            self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, self.selectedBarWidth, selectedBarFrame.size.height);
+            self.selectedBar.center = center;
+        }
     }
 }
 

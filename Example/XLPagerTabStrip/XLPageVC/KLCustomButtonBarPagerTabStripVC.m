@@ -25,14 +25,18 @@ static const CGFloat kSegemnetHeight = 44;
 @end
 
 @implementation KLCustomButtonBarPagerTabStripVC
-@synthesize buttonBarView = _buttonBarView;
+//@synthesize buttonBarView = _buttonBarView;
 
 - (void)viewDidLoad {
+    self.betweenOfCellSpace = 50;
+    self.titleCellAlignType = AlignWithCenter;
     [super viewDidLoad];
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+//    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.delegate = self;
-    self.buttonBarView.shouldCellsFillAvailableWidth = YES;
+    self.buttonBarView.shouldCellsFillAvailableWidth = NO;
     self.buttonBarView.leftRightMargin = 0;
+    self.isProgressiveIndicator = YES;
+    self.buttonBarView.selectedBarWidth = 15;
 //    self.title = self.customTitle;
 //    [self customTabs];
 }
@@ -90,40 +94,41 @@ static const CGFloat kSegemnetHeight = 44;
 //
 //#pragma mark - Properties
 //#pragma mark - 重写父类的方法
--(XLButtonBarView *)buttonBarView
-{
-    if (_buttonBarView) return _buttonBarView;
-
-    // If _buttonBarView is nil then it wasn't configured in a XIB or storyboard so
-    // this class is being used programmatically. We need to initialise the buttonBarView,
-    // setup some sensible defaults (which can of course always be re-set in the sub-class),
-    // and set an appropriate frame. The buttonBarView gets added to to the view in viewDidLoad:
-  
-    JYEqualCellSpaceFlowLayout *flowLayout = [[JYEqualCellSpaceFlowLayout alloc] initWithType:AlignWithCenter betweenOfCell:50];
-    flowLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
-    
-    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f) collectionViewLayout:flowLayout];
-    _buttonBarView.backgroundColor = [UIColor orangeColor];
-    _buttonBarView.selectedBar.backgroundColor = [UIColor blackColor];
-    _buttonBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    // If a XIB or storyboard hasn't been used we also need to register the cell reuseIdentifier
-    // as well otherwise we'll get a crash when the code attempts to dequeue any cell's
-    NSBundle * bundle = [NSBundle bundleForClass:[XLButtonBarView class]];
-    NSURL * url = [bundle URLForResource:@"XLPagerTabStrip" withExtension:@"bundle"];
-    if (url){
-        bundle =  [NSBundle bundleWithURL:url];
-    }
-    [_buttonBarView registerNib:[UINib nibWithNibName:@"ButtonCell" bundle:bundle] forCellWithReuseIdentifier:@"Cell"];
-    // If a XIB or storyboard hasn't been used then the containView frame that was setup in the
-    // XLPagerTabStripViewController won't have accounted for the buttonBarView. So we need to adjust
-    // its y position (and also its height) so that childVC's don't appear under the buttonBarView.
-    CGRect newContainerViewFrame = self.containerView.frame;
-    newContainerViewFrame.origin.y = 44.0f;
-    newContainerViewFrame.size.height = self.containerView.frame.size.height - (44.0f - self.containerView.frame.origin.y);
-    self.containerView.frame = newContainerViewFrame;
-
-    return _buttonBarView;
-}
+//-(XLButtonBarView *)buttonBarView
+//{
+//    if (_buttonBarView) return _buttonBarView;
+//
+//    // If _buttonBarView is nil then it wasn't configured in a XIB or storyboard so
+//    // this class is being used programmatically. We need to initialise the buttonBarView,
+//    // setup some sensible defaults (which can of course always be re-set in the sub-class),
+//    // and set an appropriate frame. The buttonBarView gets added to to the view in viewDidLoad:
+//
+//    JYEqualCellSpaceFlowLayout *flowLayout = [[JYEqualCellSpaceFlowLayout alloc] initWithType:AlignWithCenter betweenOfCell:50];
+//    flowLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
+//
+//    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f) collectionViewLayout:flowLayout];
+//    _buttonBarView.backgroundColor = [UIColor orangeColor];
+//    _buttonBarView.selectedBar.backgroundColor = [UIColor blackColor];
+//    _buttonBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+//    _buttonBarView.selectedBarWidth = 20;
+//    // If a XIB or storyboard hasn't been used we also need to register the cell reuseIdentifier
+//    // as well otherwise we'll get a crash when the code attempts to dequeue any cell's
+//    NSBundle * bundle = [NSBundle bundleForClass:[XLButtonBarView class]];
+//    NSURL * url = [bundle URLForResource:@"XLPagerTabStrip" withExtension:@"bundle"];
+//    if (url){
+//        bundle =  [NSBundle bundleWithURL:url];
+//    }
+//    [_buttonBarView registerNib:[UINib nibWithNibName:@"ButtonCell" bundle:bundle] forCellWithReuseIdentifier:@"Cell"];
+//    // If a XIB or storyboard hasn't been used then the containView frame that was setup in the
+//    // XLPagerTabStripViewController won't have accounted for the buttonBarView. So we need to adjust
+//    // its y position (and also its height) so that childVC's don't appear under the buttonBarView.
+//    CGRect newContainerViewFrame = self.containerView.frame;
+//    newContainerViewFrame.origin.y = 44.0f;
+//    newContainerViewFrame.size.height = self.containerView.frame.size.height - (44.0f - self.containerView.frame.origin.y);
+//    self.containerView.frame = newContainerViewFrame;
+//
+//    return _buttonBarView;
+//}
 //
 //- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 //{

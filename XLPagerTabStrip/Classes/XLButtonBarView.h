@@ -43,6 +43,7 @@ typedef NS_ENUM(NSUInteger, XLSelectedBarAlignment) {
 @interface XLButtonBarView : UICollectionView
 
 @property (readonly, nonatomic) UIView * selectedBar;
+@property (nonatomic,assign)CGFloat selectedBarWidth;
 @property (nonatomic) CGFloat selectedBarHeight;
 @property (nonatomic) XLSelectedBarAlignment selectedBarAlignment;
 @property (nonatomic) BOOL shouldCellsFillAvailableWidth;

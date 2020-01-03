@@ -10,11 +10,7 @@
 #import "JYEqualCellSpaceFlowLayout.h"
 NS_ASSUME_NONNULL_BEGIN
 @interface FPButtonBarPagerTabStripiewController : XLButtonBarPagerTabStripViewController
-@property (nonatomic,strong)NSArray *childrenVCs;//子控制器
-@property (nonatomic,assign)CGFloat fontSize;
-@property (nonatomic,assign)CGFloat selectFontSize;
-@property (nonatomic,strong)UIColor *color;
-@property (nonatomic,strong)UIColor *selectColor;
-@property (nonatomic,assign)AlignType textAlignType;//
+@property (nonatomic,assign)AlignType titleCellAlignType;//cell对齐方式
+@property (nonatomic,assign)CGFloat betweenOfCellSpace;//cell之间间距
 @end
 NS_ASSUME_NONNULL_END
