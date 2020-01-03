@@ -34,10 +34,10 @@ static const CGFloat kSegemnetHeight = 44;
     [super viewDidLoad];
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.delegate = self;
-    self.buttonBarView.shouldCellsFillAvailableWidth = NO;
+    self.buttonBarView.shouldCellsFillAvailableWidth = YES;
     self.buttonBarView.leftRightMargin = 0;
     self.isProgressiveIndicator = YES;
-    self.buttonBarView.selectedBarWidth = 15;
+//    self.buttonBarView.selectedBarWidth = 15;
 //    self.title = self.customTitle;
 //    [self customTabs];
 }

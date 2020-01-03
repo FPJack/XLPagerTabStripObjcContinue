@@ -25,7 +25,7 @@
 
 
 #import "XLButtonBarView.h"
-
+#import "XLButtonBarViewCell.h"
 @interface XLButtonBarView ()
 
 @property UIView * selectedBar;
@@ -106,11 +106,20 @@
     targetFrame.size.height = self.selectedBar.frame.size.height;
     targetFrame.size.width += (toFrame.size.width - fromFrame.size.width) * progressPercentage;
     targetFrame.origin.x += (toFrame.origin.x - fromFrame.origin.x) * progressPercentage;
-    
+    CGRect originSelectedBarFrame = self.selectedBar.frame;
     self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y, targetFrame.size.width, self.selectedBar.frame.size.height);
+    XLButtonBarViewCell *cell = (XLButtonBarViewCell*)[self cellForItemAtIndexPath:[NSIndexPath indexPathForRow:toIndex inSection:0]];
     if (self.selectedBarWidth > 0) {
         CGPoint center = self.selectedBar.center;
         self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y, self.selectedBarWidth, self.selectedBar.frame.size.height);
+        self.selectedBar.center = center;
+    }else if (cell){
+        CGPoint center = self.selectedBar.center;
+        self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y,         cell.label.frame.size.width, self.selectedBar.frame.size.height);
+        self.selectedBar.center = center;
+    }else{
+        CGPoint center = self.selectedBar.center;
+        self.selectedBar.frame = CGRectMake(targetFrame.origin.x, self.selectedBar.frame.origin.y,originSelectedBarFrame.size.width, self.selectedBar.frame.size.height);
         self.selectedBar.center = center;
     }
     
@@ -149,13 +158,18 @@
     
     selectedBarFrame.size.width = selectedCellFrame.size.width;
     selectedBarFrame.origin.x = selectedCellFrame.origin.x;
-    
+    XLButtonBarViewCell *cell = (XLButtonBarViewCell*)[self cellForItemAtIndexPath:[NSIndexPath indexPathForRow:selectedCellIndexPath.row inSection:0]];
+
     if (animation){
         [UIView animateWithDuration:0.3 animations:^{
             self.selectedBar.frame = selectedBarFrame;
             if (self.selectedBarWidth > 0) {
                 CGPoint center = self.selectedBar.center;
                 self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, self.selectedBarWidth, selectedBarFrame.size.height);
+                self.selectedBar.center = center;
+            }else if (cell){
+                CGPoint center = self.selectedBar.center;
+                self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, cell.label.frame.size.width, selectedBarFrame.size.height);
                 self.selectedBar.center = center;
             }
         }];
@@ -165,6 +179,10 @@
         if (self.selectedBarWidth > 0) {
             CGPoint center = self.selectedBar.center;
             self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, self.selectedBarWidth, selectedBarFrame.size.height);
+            self.selectedBar.center = center;
+        }else if (cell){
+            CGPoint center = self.selectedBar.center;
+            self.selectedBar.frame = CGRectMake(selectedBarFrame.origin.x, selectedBarFrame.origin.y, cell.label.frame.size.width, selectedBarFrame.size.height);
             self.selectedBar.center = center;
         }
     }
