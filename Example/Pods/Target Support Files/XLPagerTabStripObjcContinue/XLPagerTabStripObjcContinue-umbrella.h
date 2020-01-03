@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "FPButtonBarPagerTabStripiewController.h"
 #import "FPScrollViewViewController.h"
+#import "FPButtonBarPagerTabStripiewController.h"
 #import "FXPageControl.h"
 #import "JYEqualCellSpaceFlowLayout.h"
 #import "XLBarPagerTabStripViewController.h"

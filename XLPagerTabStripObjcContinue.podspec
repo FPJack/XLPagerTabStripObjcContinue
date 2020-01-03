@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/FPJack/XLPagerTabStripObjcContinue.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+#  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XLPagerTabStripObjcContinue/Classes/**/*'
+#  s.source_files = 'XLPagerTabStripObjcContinue/Classes/**/*'
   
    s.resource_bundles = {
      'XLPagerTabStripObjcContinue' => ['XLPagerTabStripObjcContinue/Assets/*.png','XLPagerTabStripObjcContinue/Assets/*.xib']
@@ -39,5 +39,16 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'MXParallaxHeader','~> 1.1.0'
+#  s.dependency 'MXParallaxHeader','~> 1.1.0'
+  s.subspec 'XLPagerTabStrip' do |x|
+  x.ios.deployment_target = '9.0'
+  x.source_files = 'XLPagerTabStripObjcContinue/Classes/XLPagerTabStrip/*.{h,m}'
+  end
+  
+  s.subspec 'MXParallaxHeader' do |m|
+  m.ios.deployment_target = '9.0'
+  m.source_files = 'XLPagerTabStripObjcContinue/Classes/MXParallaxHeader/*.{h,m}'
+  m.dependency 'XLPagerTabStripObjcContinue/XLPagerTabStrip'
+  m.dependency 'MXParallaxHeader','~> 1.1.0'
+  end
 end

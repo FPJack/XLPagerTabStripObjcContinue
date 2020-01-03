@@ -1,6 +1,6 @@
 {
   "name": "XLPagerTabStripObjcContinue",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "A short description of XLPagerTabStripObjcContinue.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/FPJack/XLPagerTabStripObjcContinue",
@@ -13,21 +13,42 @@
   },
   "source": {
     "git": "https://github.com/FPJack/XLPagerTabStripObjcContinue.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
-  "platforms": {
-    "ios": "9.0"
-  },
-  "source_files": "XLPagerTabStripObjcContinue/Classes/**/*",
   "resource_bundles": {
     "XLPagerTabStripObjcContinue": [
       "XLPagerTabStripObjcContinue/Assets/*.png",
       "XLPagerTabStripObjcContinue/Assets/*.xib"
     ]
   },
-  "dependencies": {
-    "MXParallaxHeader": [
-      "~> 1.1.0"
-    ]
-  }
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "XLPagerTabStrip",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "XLPagerTabStripObjcContinue/Classes/XLPagerTabStrip/*.{h,m}"
+    },
+    {
+      "name": "MXParallaxHeader",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "XLPagerTabStripObjcContinue/Classes/MXParallaxHeader/*.{h,m}",
+      "dependencies": {
+        "XLPagerTabStripObjcContinue/XLPagerTabStrip": [
+
+        ],
+        "MXParallaxHeader": [
+          "~> 1.1.0"
+        ]
+      }
+    }
+  ]
 }

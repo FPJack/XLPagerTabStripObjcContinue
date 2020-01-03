@@ -96,7 +96,7 @@
         vc.childViewController = self.pagerTabVC;
         vc.headerHeight = 200;
         vc.minimumHeight = 50;
-//        vc.scrollView.bounces = NO;
+        vc.scrollView.bounces = NO;
     //    vc.headerViewController = [KLCustomHeaderVC new];
         vc.headerView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"yangquanxuzhi"]];
         self.VC = vc;
