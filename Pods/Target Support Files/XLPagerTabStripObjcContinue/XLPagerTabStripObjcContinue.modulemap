@@ -1,0 +1,6 @@
+framework module XLPagerTabStripObjcContinue {
+  umbrella header "XLPagerTabStripObjcContinue-umbrella.h"
+
+  export *
+  module * { export * }
+}

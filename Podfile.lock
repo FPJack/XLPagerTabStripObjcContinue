@@ -1,0 +1,35 @@
+PODS:
+  - FPRefresh (0.1.2):
+    - FPRefresh/Refresh (= 0.1.2)
+    - MJRefresh
+  - FPRefresh/Refresh (0.1.2):
+    - MJRefresh
+  - MJRefresh (3.3.1)
+  - MXParallaxHeader (1.1.0)
+  - XLPagerTabStripObjcContinue (0.1.0):
+    - MXParallaxHeader (~> 1.1.0)
+
+DEPENDENCIES:
+  - FPRefresh
+  - MXParallaxHeader
+  - XLPagerTabStripObjcContinue (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FPRefresh
+    - MJRefresh
+    - MXParallaxHeader
+
+EXTERNAL SOURCES:
+  XLPagerTabStripObjcContinue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FPRefresh: 46fa191076ac3186a4dd0f0c636ecd9b13f79475
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
+  XLPagerTabStripObjcContinue: 94afb625f31acfcd4dcce73a87853f4256928d6f
+
+PODFILE CHECKSUM: af55f7a01fb52b519add3ea581ec582c4cdc3c63
+
+COCOAPODS: 1.9.0.beta.2
