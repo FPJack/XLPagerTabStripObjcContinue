@@ -13,7 +13,7 @@
 #import "KLCustomButtonBarPagerTabStripVC.h"
 #import "KLCustomSubVC.h"
 #import "KLCustomHeaderVC.h"
-
+#import <MJRefresh/MJRefresh.h>
 @interface FPViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong)KLCustomButtonBarPagerTabStripVC *pagerTabVC;
@@ -86,6 +86,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [[NSNotificationCenter defaultCenter] addObserverForName:@"tap" object:nil queue:NSOperationQueue.mainQueue usingBlock:^(NSNotification * _Nonnull note) {
         self.VC.headerHeight = self.VC.headerHeight == 200 ? 250 : 200;
+        self.VC.scrollView.mj_header.ignoredScrollViewContentInsetTop = self.VC.headerHeight;
         [self.VC reloadHeaderHeight];
     }];
 }
@@ -95,7 +96,7 @@
         vc.childViewController = self.pagerTabVC;
         vc.headerHeight = 200;
     //    vc.minimumHeight = 50;
-    //    vc.scrollView.bounces = NO;
+        vc.scrollView.bounces = NO;
     //    vc.headerViewController = [KLCustomHeaderVC new];
         vc.headerView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"yangquanxuzhi"]];
         self.VC = vc;
