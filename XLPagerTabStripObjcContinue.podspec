@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLPagerTabStripObjcContinue'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of XLPagerTabStripObjcContinue.'
 
 # This description is used to generate tags and improve search results.
@@ -51,7 +51,7 @@ TODO: Add long description of the pod here.
   s.subspec 'MXParallaxHeader' do |m|
   m.ios.deployment_target = '9.0'
   m.source_files = 'XLPagerTabStripObjcContinue/Classes/MXParallaxHeader/*.{h,m}'
-  m.dependency 'XLPagerTabStripObjcContinue/XLPagerTabStrip'
+#  m.dependency 'XLPagerTabStripObjcContinue/XLPagerTabStrip'
   m.dependency 'MXParallaxHeader','~> 1.1.0'
   end
 end
