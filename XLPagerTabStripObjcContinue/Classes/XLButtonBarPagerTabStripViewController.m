@@ -175,8 +175,11 @@
     // and set an appropriate frame. The buttonBarView gets added to to the view in viewDidLoad:
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    flowLayout.sectionInset = UIEdgeInsetsMake(0, 35, 0, 35);
-    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f) collectionViewLayout:flowLayout];
+    UIEdgeInsets sectionInset = UIEdgeInsetsEqualToEdgeInsets(self.buttonBarViewSectionInset, UIEdgeInsetsZero) ? UIEdgeInsetsMake(0, 10, 0, 10) : self.buttonBarViewSectionInset;
+    flowLayout.sectionInset = sectionInset;
+    CGFloat buttonBarViewHeight = self.buttonBarViewHeight > 0 ? self
+      .buttonBarViewHeight : 44.0f;
+    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, buttonBarViewHeight) collectionViewLayout:flowLayout];
     _buttonBarView.backgroundColor = [UIColor orangeColor];
     _buttonBarView.selectedBar.backgroundColor = [UIColor blackColor];
     _buttonBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -192,8 +195,8 @@
     // XLPagerTabStripViewController won't have accounted for the buttonBarView. So we need to adjust
     // its y position (and also its height) so that childVC's don't appear under the buttonBarView.
     CGRect newContainerViewFrame = self.containerView.frame;
-    newContainerViewFrame.origin.y = 44.0f;
-    newContainerViewFrame.size.height = self.containerView.frame.size.height - (44.0f - self.containerView.frame.origin.y);
+    newContainerViewFrame.origin.y = buttonBarViewHeight;
+    newContainerViewFrame.size.height = self.containerView.frame.size.height - (buttonBarViewHeight - self.containerView.frame.origin.y);
     self.containerView.frame = newContainerViewFrame;
     
     return _buttonBarView;

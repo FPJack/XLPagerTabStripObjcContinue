@@ -30,6 +30,7 @@ static const CGFloat kSegemnetHeight = 44;
 - (void)viewDidLoad {
     self.betweenOfCellSpace = 50;
     self.titleCellAlignType = AlignWithCenter;
+    self.buttonBarViewHeight = 60;
     [super viewDidLoad];
 //    self.edgesForExtendedLayout = UIRectEdgeNone;
     self.delegate = self;

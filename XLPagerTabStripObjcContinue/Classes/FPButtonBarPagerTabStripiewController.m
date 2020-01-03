@@ -27,9 +27,12 @@
 {
     if (_buttonBarView) return _buttonBarView;
     JYEqualCellSpaceFlowLayout *flowLayout = [[JYEqualCellSpaceFlowLayout alloc] initWithType:self.titleCellAlignType betweenOfCell:self.betweenOfCellSpace > 0 ? self.betweenOfCellSpace : 0];
-    flowLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
+    UIEdgeInsets sectionInset = UIEdgeInsetsEqualToEdgeInsets(self.buttonBarViewSectionInset, UIEdgeInsetsZero) ? UIEdgeInsetsMake(0, 10, 0, 10) : self.buttonBarViewSectionInset;
+    flowLayout.sectionInset = sectionInset;
+    CGFloat buttonBarViewHeight = self.buttonBarViewHeight > 0 ? self
+    .buttonBarViewHeight : 44.0f;
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f) collectionViewLayout:flowLayout];
+    _buttonBarView = [[XLButtonBarView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, buttonBarViewHeight) collectionViewLayout:flowLayout];
     _buttonBarView.backgroundColor = [UIColor orangeColor];
     _buttonBarView.selectedBar.backgroundColor = [UIColor blackColor];
     _buttonBarView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -40,8 +43,8 @@
     }
     [_buttonBarView registerNib:[UINib nibWithNibName:@"ButtonCell" bundle:bundle] forCellWithReuseIdentifier:@"Cell"];
     CGRect newContainerViewFrame = self.containerView.frame;
-    newContainerViewFrame.origin.y = 44.0f;
-    newContainerViewFrame.size.height = self.containerView.frame.size.height - (44.0f - self.containerView.frame.origin.y);
+    newContainerViewFrame.origin.y = buttonBarViewHeight;
+    newContainerViewFrame.size.height = self.containerView.frame.size.height - (buttonBarViewHeight - self.containerView.frame.origin.y);
     self.containerView.frame = newContainerViewFrame;
     return _buttonBarView;
 }
