@@ -1,0 +1,1579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0478BD0EE4E3935F74547CCABA5D4854 /* XLPagerTabStripViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A1C702CE45B464313D5336FA1BCA1C /* XLPagerTabStripViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052C5E07344A7A7953FBBA67076DC0E3 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1495478790C34E2F545B7292A1F79420 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B1F51830812CE9758896D52B25E974 /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4261A1127B930559E1A7BBBEDD88B9 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066CDAB5D413946D766BF65B8B00E5BC /* FPButtonBarPagerTabStripiewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017828A6C5732E5772337DE405466FEB /* FPButtonBarPagerTabStripiewController.m */; };
+		069023625F4C528C74CCC9C170CBF0E0 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73FA21BB4C0C31AB4DB38683EF3CB37 /* XLPagerTabStrip-dummy.m */; };
+		06F9749CB169D6D27B1FA53F7C54A991 /* MXScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B13735419A29842F3CD5796B56B02C /* MXScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C5DE11C693F0CCE0D734316CCDCA7EA /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2695928C8958A6B991C98F16DC588F /* MJRefreshAutoGifFooter.m */; };
+		102F5B9A1BF5BFB1092DB507FAC98440 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D2326EB43A20786E4588FF904C96CEDB /* MJRefreshBackGifFooter.m */; };
+		170B369E3F34B838A069B9B73F248824 /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF229F49761A343205607757388F271 /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17ED26E6E42D0684F4E946D3B6670C6F /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA710C61868139628CC22ED00C9D37 /* MJRefreshBackNormalFooter.m */; };
+		195E52C5242A95E5255DD35112C634C3 /* MXParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9C7DE06F4806C9167D4E9FC638AF6C /* MXParallaxHeader.m */; };
+		19F0FC203FC938E39B9885E6B780328B /* MXParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BBA44C8C21029BA2E5FB61765CFCF5 /* MXParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5D1D4ECC704157894908B9D59540CD /* MXParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F63C849940C2EE10D4B1A7198BC9031 /* MXParallaxHeader-dummy.m */; };
+		223BCBDF779CF7E23751F92B8C1FD7D2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 97488B10E53F545BCD71BFA1768989A5 /* MJRefreshComponent.m */; };
+		2445C54940AF378440B3BD95F96DB967 /* FPButtonBarPagerTabStripiewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A510194576FE97003BE60FFA4426BBFE /* FPButtonBarPagerTabStripiewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E175880FB2667AF8EE4DEFC2DB576D /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 133D4B919FA4D7E1F54B7B27AB234276 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264718395BE568E8C1C942E1968230ED /* FPScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50002E195768C3AB03E8C3EB67F7029 /* FPScrollViewViewController.m */; };
+		27976185912FEA2508B57A6E47D4A617 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4AB718223D1A2E51B36AB1E9A3575A /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7829736B655ABCF061AB51F933CD41 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFCED03A10AC5E9FAA8ECAF1F4C5530 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31AC9C6A4CDC0EB061D151B5F76C78A1 /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16562D2AB460718CC1ABA7276B06E6 /* MJRefresh-dummy.m */; };
+		32B5A84A07A58A434DF888B1E3BFB017 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F1C34C2090DC6D81CAA6F60DFA4BC692 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CA1CED82635314C2C3DD18FFA2D2A1 /* FPRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B887B219F461ADE1E8BF69E3B8CB4B8C /* FPRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4466F387DFB798DF1C81A29E2923433C /* FPRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D964C7FF7C07327B0D09067D396705 /* FPRefresh-dummy.m */; };
+		4683E3F878B9F9000679920452AFA35E /* Pods-XLPagerTabStrip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A81D5BDFEFE56EBB5904EC5F5E0005D3 /* Pods-XLPagerTabStrip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46FBB606881F2C3D55604A011FF7B239 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C88A921564E239B0F5C36155833018 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3066C36BA684DE618CB8D30DC23488 /* XLButtonBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC8C0374F7E33507691362D8D71C1D /* XLButtonBarView.m */; };
+		4CA30322D18798DB8C37FB6F78BA02E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */; };
+		4FCABB8482581FFC63C584CA7747EDFA /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBDCECFCF51047734C3252F1416864D /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5334E6E891E56E253FAF6B62C7F33018 /* XLSegmentedPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BFCC451C890B6D70DF2F811BFD9B6 /* XLSegmentedPagerTabStripViewController.m */; };
+		547E46FDA1C4E8996B88154C6CD62A39 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D9F3E40BFD2A21CA08B4FF02F0FA5D /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55361EFEEB31355F5E6E8D60F26D9614 /* XLButtonBarPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D491842CC07E39EA25E5C0352F1A057 /* XLButtonBarPagerTabStripViewController.m */; };
+		55A9CC32CF24B42EDD82F63D43F45CB4 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD8B507CD9C550787B9572FFAE9770D /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C96BB0A521A6633286F050C3D3353D7 /* MXParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 328D5222713BA7523FDB1AF9C52A3DB7 /* MXParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB7F8BD20C51E43BCC302EF2C9AFC97 /* JYEqualCellSpaceFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 927A0B981ABD15D85E6F4EA12068A78F /* JYEqualCellSpaceFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC57F46AC7C00B2D813DB624739B76A /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 55281DEA794532B95F9A5EB64EAC7D45 /* MJRefreshConst.m */; };
+		6D18D4EA1188910BDC6F9385139AAC52 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 05839C9B81125A665D144086A1678387 /* NSBundle+MJRefresh.m */; };
+		6ED52DA63811EA27047B10B0122C738F /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F6B6620D20F4D21C1A03127E18865C /* MJRefresh.framework */; };
+		70724211BFF0CA16942369E1C10400A1 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */; };
+		72EBA2C5814BC6327DFCD5E75ABABFE6 /* MXScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C932D446264161D0593E2DC3F317DF /* MXScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E0C2124CFD6FB789CB32225EA5F69A /* MXParallaxHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B591316F8433A512EEB9BB33559141AA /* MXParallaxHeader.framework */; };
+		79310A4D2517B65160E624FFBC9E45A1 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5919A83363ACE626986AB997C0AC9D3E /* UIScrollView+MJRefresh.m */; };
+		88A02A0532358FF91CB2E5771A8A595E /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 685A03DD4D340955A180D8B8BDAC6232 /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89EE67DDB4E24075C620B89A94291FE5 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 764AA52A3C31C952D9308EAA91346058 /* MJRefreshAutoFooter.m */; };
+		8A8C96B070A3E4EBACCF63634E453B6D /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D835467C208F54DACE77B398D1B21515 /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC15E5242ED60E4224CAF766495E74A /* XLTwitterPagerTabStripViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E770F5D43947F3BB9967D2EBE6C63A7 /* XLTwitterPagerTabStripViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9B9A6EBDD0395E9195FF4E319A0A88 /* XLPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF842197D3E5376DD75C3CDA1A3D94F /* XLPagerTabStripViewController.m */; };
+		9068B04DB67FF298CB6179DC3E4F26C8 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 051FD070AEE7B505A9F277B51437421E /* UIScrollView+MJExtension.m */; };
+		947DD5595E8C349827020106B873E17C /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1709F329FCDF5CAA6FCBC99D759F270 /* MJRefreshAutoStateFooter.m */; };
+		97DE533C8D9490EA07953A9162413CFB /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE6B07220D6250F4C77561CE1512061 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A00FD8A718B0C190D562593C556B1EB /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F98596DA53BD5BBF9C1AFD42CE8F0A /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ABCB5BE75E4172302772616E5C9EB4A /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A96FF5AF7EFBFB2320329CB55A5AF58 /* MJRefreshBackFooter.m */; };
+		9D82F2C45882F4A84888E6F86D956B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */; };
+		9EAABD2DF0DEC9C292DFC5BFACA7DFC3 /* FPScrollViewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12898F861EF2FF86C17FF70E488238D4 /* FPScrollViewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10C8632E37C066ED8BA58BF4E0DE9DD /* XLTwitterPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD53FA1A2515C1AC6E4357862E55D69 /* XLTwitterPagerTabStripViewController.m */; };
+		A2972A1E5AB1DC0FD52F275E748D09A2 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52291EAB9A4DAD53407CCE597DFE294E /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A56A6728E719AECC463494DB73999ED1 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981C990162D89D71478748B4A328013 /* MJRefreshBackStateFooter.m */; };
+		A6D982486CA8BF6C444AAB7B391147B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */; };
+		A6F12F3E36A6350239FA9BD25CB91379 /* XLBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA4F9A071CC4DE473E4CC5C80EAECD6 /* XLBarView.m */; };
+		ABF31ADBBE69F779649FC4D51A1ACC48 /* MXScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B99F762C333A1E5D894D180C10001AC1 /* MXScrollViewController.m */; };
+		AC609C15B605F9538A679B6B2EA2802C /* XLBarPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708AB5EC5DAD110B924968C6CED72C20 /* XLBarPagerTabStripViewController.m */; };
+		ACA6CE051593378D6155ACE4EDD07207 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035ED4A35B468E7E54648C93C5648276 /* ButtonCell.xib */; };
+		AF133E6D88F866B9F7056005CDDDB233 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6385EB40C66603143F80B6C5D594B079 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5A67C13AA6870A2DD096BF89EE2278 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5CEC84D08CDC8E2160E3D167B1314 /* MJRefreshNormalHeader.m */; };
+		B1AEC13169EE06EEF6E2680BD498B478 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = F13E8187B96D0BCFB2C8585777EC51AC /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F7A00EAD62E5E297C31E42943E27D6 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7C8BF399E1DCAD3346CE2C79A540D /* MJRefreshAutoNormalFooter.m */; };
+		B5773612B78B4223654056773BA36A26 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = AE198802E6554DFE416D8DA8456FAFCF /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B648D97DA48A944C095644B84D76DDC0 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCBE9CF89C6FB46737A5F64A60050B /* MJRefreshStateHeader.m */; };
+		B722453E3924FE12B1F09052353A7524 /* XLSegmentedPagerTabStripViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D968288E977474FCB25C2F9288172A9F /* XLSegmentedPagerTabStripViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8C629F3B3F5635F532DEE2AE343E700 /* Pods-XLPagerTabStrip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C144769DCE4C538D4A71752E97D2CB /* Pods-XLPagerTabStrip_Example-dummy.m */; };
+		B94723A642EF83BA127C0F0FBDAC175B /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD0D18E1B014785C37E74B7C84B5230 /* MJRefreshFooter.m */; };
+		BB826B3362550CC7D47A971BC60E06E3 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67C1DF88D479360BCBDA61265E185ACA /* MJRefresh.bundle */; };
+		C1775E927EBD07039ECF5A8392836AD3 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00F0E882D0485C0BF4185224ACE2C8 /* UIView+MJExtension.m */; };
+		C1DAABD762BF92705CAC62189FB2A1BF /* MXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE529326A397B70461F0AA3B18313027 /* MXScrollView.m */; };
+		C20B3226BE62B766ED1F108EA69B987C /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E30954C663C12CCC8B6199B05172D246 /* MJRefreshHeader.m */; };
+		C74D82D5FB477D67308F122C2D7BD71F /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 918CE4E95388BC7BAEA5E8D079429811 /* MJRefreshGifHeader.m */; };
+		CE20FD563BBDD38378A92379B09058A6 /* XLButtonBarViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D7C777A68829892E7D6A388B8E3A85 /* XLButtonBarViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4421F77EBDF29C8BB53E593F1B862F /* MJRefreshConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 303CDEC2BAAC3F2FA40AB190387978BE /* MJRefreshConfig.m */; };
+		D37B57E90037257E5ADEFC9A707C2997 /* XLButtonBarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E95BA50E7A5328AB2AC0D8E8402968 /* XLButtonBarViewCell.m */; };
+		D52113FDACDADECEC41892CFC6736F5A /* XLBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC149CEF111C99C7777A026D6B28BF6 /* XLBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92289DA6CC29D50B3F2947EE395FB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */; };
+		DAFC6C6E783208591EDE8EA971B56B1C /* XLButtonBarPagerTabStripViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 748EAC63DE5BFE945669BBC477B26CD1 /* XLButtonBarPagerTabStripViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5CEB26A209094EFF7E63EF91664946 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 949D4717391598D721B2745A71A69124 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF86AD9BD23D8A93EA93302E14BCCE4E /* XLBarPagerTabStripViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E24A0D5E8BBFC77BDF62BD1150EDD5B9 /* XLBarPagerTabStripViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1175304A5DF0D9F44B247963B2494C9 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6C1C42AC1CCA99E2B66D132E1723D2 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6574AEEF3BD26BB161570FC797AFC60 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EDDA7D2E8120A21C26DCCAB0C2EE60 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7681E9575ED5CD1D9DA423127BB6A8A /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7E0EA13A7A940D21BDC75DF7038D01 /* FXPageControl.m */; };
+		E984B69E710665167BF12EA988C2B0CB /* UIScrollView+Refresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D1313933ED2F552544BC425EFB1E3B /* UIScrollView+Refresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE712BE7D3548FF8C3A93A3A5F8DDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */; };
+		ED7616059FA79FC3912142204D23CC67 /* JYEqualCellSpaceFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CC6E4D54451B30ABB3A4B8E397790 /* JYEqualCellSpaceFlowLayout.m */; };
+		F0D6C6B4AC992B43EF9D234E69DA7011 /* MJRefreshConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9015F17874F4E1D86AB92380C463E541 /* MJRefreshConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58D319096F3539A56E82BC3E8D01242 /* XLButtonBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE350A510280E941C4FC64E31524BD5 /* XLButtonBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3051A697F398EC72B3E898FCB820C5 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 144435733E228C8F9EB5E14AFE734021 /* UIScrollView+Refresh.m */; };
+		FFA5B830AD2B7248DA59D51876826C70 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = B3254FEFAFE7A68A78DBAC3BCF329763 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D18D03FE2325E5406A0880C3D9839CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		31B70A30524C46BA1B7FE7C520CCB16C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65C0EE8AF6DB74ABBACA4A3A11CE230;
+			remoteInfo = MXParallaxHeader;
+		};
+		3DAFC52E4F7027C90B2EAD98FB5E83B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF90A3A56D4C5830C212D000AB67BC1;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		6F6E97BE5F0809EB647178321F4CFC46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF13E948B679DAA7A7CB4FC069252B5;
+			remoteInfo = FPRefresh;
+		};
+		825FE2F01CA9158E2BBED37042032E7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5C3A7662FFA04D04D29F4657D032CE;
+			remoteInfo = XLPagerTabStrip;
+		};
+		951212653C37AE686C172E12824853C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6868056D761E163D10FDAF8CF1C4D9B8;
+			remoteInfo = MJRefresh;
+		};
+		BD1CA089B092C8D8F61303E0BFD8E8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65C0EE8AF6DB74ABBACA4A3A11CE230;
+			remoteInfo = MXParallaxHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E95BA50E7A5328AB2AC0D8E8402968 /* XLButtonBarViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLButtonBarViewCell.m; path = XLPagerTabStrip/Classes/XLButtonBarViewCell.m; sourceTree = "<group>"; };
+		017828A6C5732E5772337DE405466FEB /* FPButtonBarPagerTabStripiewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPButtonBarPagerTabStripiewController.m; path = XLPagerTabStrip/Classes/FPButtonBarPagerTabStripiewController.m; sourceTree = "<group>"; };
+		035ED4A35B468E7E54648C93C5648276 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = XLPagerTabStrip/Assets/ButtonCell.xib; sourceTree = "<group>"; };
+		051FD070AEE7B505A9F277B51437421E /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		05839C9B81125A665D144086A1678387 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		0D8CC6E4D54451B30ABB3A4B8E397790 /* JYEqualCellSpaceFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JYEqualCellSpaceFlowLayout.m; path = XLPagerTabStrip/Classes/JYEqualCellSpaceFlowLayout.m; sourceTree = "<group>"; };
+		0E0BFCC451C890B6D70DF2F811BFD9B6 /* XLSegmentedPagerTabStripViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLSegmentedPagerTabStripViewController.m; path = XLPagerTabStrip/Classes/XLSegmentedPagerTabStripViewController.m; sourceTree = "<group>"; };
+		12898F861EF2FF86C17FF70E488238D4 /* FPScrollViewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPScrollViewViewController.h; path = XLPagerTabStrip/Classes/FPScrollViewViewController.h; sourceTree = "<group>"; };
+		133D4B919FA4D7E1F54B7B27AB234276 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		144435733E228C8F9EB5E14AFE734021 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Refresh.m"; path = "FPRefresh/Classes/UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		1495478790C34E2F545B7292A1F79420 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		157807DC02FBABA339FBAB332AC3BDFA /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		1AE350A510280E941C4FC64E31524BD5 /* XLButtonBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLButtonBarView.h; path = XLPagerTabStrip/Classes/XLButtonBarView.h; sourceTree = "<group>"; };
+		1CC149CEF111C99C7777A026D6B28BF6 /* XLBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBarView.h; path = XLPagerTabStrip/Classes/XLBarView.h; sourceTree = "<group>"; };
+		27A424AB730B2E3BA2444B6CB158AA06 /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
+		2E00F0E882D0485C0BF4185224ACE2C8 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		303CDEC2BAAC3F2FA40AB190387978BE /* MJRefreshConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConfig.m; path = MJRefresh/MJRefreshConfig.m; sourceTree = "<group>"; };
+		328D5222713BA7523FDB1AF9C52A3DB7 /* MXParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXParallaxHeader.h; path = Sources/MXParallaxHeader.h; sourceTree = "<group>"; };
+		3338CA48C761235177F2FE591B3E8D2F /* MXParallaxHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MXParallaxHeader-Info.plist"; sourceTree = "<group>"; };
+		3B4000FC3D58AF785BB81C40587C964B /* Pods-XLPagerTabStrip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLPagerTabStrip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BD0D18E1B014785C37E74B7C84B5230 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		3C4261A1127B930559E1A7BBBEDD88B9 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		3DD53FA1A2515C1AC6E4357862E55D69 /* XLTwitterPagerTabStripViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLTwitterPagerTabStripViewController.m; path = XLPagerTabStrip/Classes/XLTwitterPagerTabStripViewController.m; sourceTree = "<group>"; };
+		3DFA710C61868139628CC22ED00C9D37 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		3E770F5D43947F3BB9967D2EBE6C63A7 /* XLTwitterPagerTabStripViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLTwitterPagerTabStripViewController.h; path = XLPagerTabStrip/Classes/XLTwitterPagerTabStripViewController.h; sourceTree = "<group>"; };
+		3F63C849940C2EE10D4B1A7198BC9031 /* MXParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		4427CCF03E8351D5AE464A5FF8CBB86F /* FPRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPRefresh.debug.xcconfig; sourceTree = "<group>"; };
+		459ACFECD481AED796E34B132D4B70DB /* Pods-XLPagerTabStrip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLPagerTabStrip_Example.release.xcconfig"; sourceTree = "<group>"; };
+		485A5BEE8FBFD0CB2E8C377D54E652EF /* Pods-XLPagerTabStrip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XLPagerTabStrip_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C2128B8E64EE1247BE9B6D29DE1E915 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E57C93734FDE4E9F4E205191CD2FA3B /* Pods-XLPagerTabStrip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XLPagerTabStrip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52291EAB9A4DAD53407CCE597DFE294E /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		55281DEA794532B95F9A5EB64EAC7D45 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		56D1313933ED2F552544BC425EFB1E3B /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Refresh.h"; path = "FPRefresh/Classes/UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		5919A83363ACE626986AB997C0AC9D3E /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		5D9C7DE06F4806C9167D4E9FC638AF6C /* MXParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXParallaxHeader.m; path = Sources/MXParallaxHeader.m; sourceTree = "<group>"; };
+		5E905E879BF919755BF95419D1B1247B /* MXParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXParallaxHeader.modulemap; sourceTree = "<group>"; };
+		5F85D665B3DE156F3275AC9CCEBA5CEC /* XLPagerTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.debug.xcconfig; sourceTree = "<group>"; };
+		6385EB40C66603143F80B6C5D594B079 /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		67C1DF88D479360BCBDA61265E185ACA /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		685A03DD4D340955A180D8B8BDAC6232 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		6AE6B07220D6250F4C77561CE1512061 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = XLPagerTabStrip/Classes/FXPageControl.h; sourceTree = "<group>"; };
+		6D192A2262E647613D454700B4E8D349 /* Pods-XLPagerTabStrip_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XLPagerTabStrip_Example-Info.plist"; sourceTree = "<group>"; };
+		6FF229F49761A343205607757388F271 /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		708AB5EC5DAD110B924968C6CED72C20 /* XLBarPagerTabStripViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBarPagerTabStripViewController.m; path = XLPagerTabStrip/Classes/XLBarPagerTabStripViewController.m; sourceTree = "<group>"; };
+		748EAC63DE5BFE945669BBC477B26CD1 /* XLButtonBarPagerTabStripViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLButtonBarPagerTabStripViewController.h; path = XLPagerTabStrip/Classes/XLButtonBarPagerTabStripViewController.h; sourceTree = "<group>"; };
+		74BBFC23A128686CD006F58259F6A629 /* XLPagerTabStrip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XLPagerTabStrip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74EDD692FED9DE9B899A6D34FE18BEA6 /* FPRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPRefresh.modulemap; sourceTree = "<group>"; };
+		764AA52A3C31C952D9308EAA91346058 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2695928C8958A6B991C98F16DC588F /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		7BF4F9DF012C6B052F90491877CB3432 /* MXParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXParallaxHeader.framework; path = MXParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFCED03A10AC5E9FAA8ECAF1F4C5530 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		7CCC8C0374F7E33507691362D8D71C1D /* XLButtonBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLButtonBarView.m; path = XLPagerTabStrip/Classes/XLButtonBarView.m; sourceTree = "<group>"; };
+		7D72BE32DC20AB6E957A5CB345E4E772 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		8030D170765A3B96829EE10865330AD0 /* XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		83FCBE9CF89C6FB46737A5F64A60050B /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		85D964C7FF7C07327B0D09067D396705 /* FPRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPRefresh-dummy.m"; sourceTree = "<group>"; };
+		86EDDA7D2E8120A21C26DCCAB0C2EE60 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		8981C990162D89D71478748B4A328013 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		89C932D446264161D0593E2DC3F317DF /* MXScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXScrollView.h; path = Sources/MXScrollView.h; sourceTree = "<group>"; };
+		8D491842CC07E39EA25E5C0352F1A057 /* XLButtonBarPagerTabStripViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLButtonBarPagerTabStripViewController.m; path = XLPagerTabStrip/Classes/XLButtonBarPagerTabStripViewController.m; sourceTree = "<group>"; };
+		8FF842197D3E5376DD75C3CDA1A3D94F /* XLPagerTabStripViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLPagerTabStripViewController.m; path = XLPagerTabStrip/Classes/XLPagerTabStripViewController.m; sourceTree = "<group>"; };
+		9015F17874F4E1D86AB92380C463E541 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
+		918CE4E95388BC7BAEA5E8D079429811 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		91F98596DA53BD5BBF9C1AFD42CE8F0A /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		924FE5AE6A9E68B67BEEE23F40B283B0 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		927A0B981ABD15D85E6F4EA12068A78F /* JYEqualCellSpaceFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYEqualCellSpaceFlowLayout.h; path = XLPagerTabStrip/Classes/JYEqualCellSpaceFlowLayout.h; sourceTree = "<group>"; };
+		949D4717391598D721B2745A71A69124 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		97488B10E53F545BCD71BFA1768989A5 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		98397B8EFCA8704250FCBA1D5F8A5442 /* Pods-XLPagerTabStrip_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XLPagerTabStrip_Example.modulemap"; sourceTree = "<group>"; };
+		992354A625576455665687ECFC8E25BC /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
+		99E06792E1DFCE2A707DCB77822E491D /* MJRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJRefresh-Info.plist"; sourceTree = "<group>"; };
+		9A96FF5AF7EFBFB2320329CB55A5AF58 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		9BE7C8BF399E1DCAD3346CE2C79A540D /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		9C6C1C42AC1CCA99E2B66D132E1723D2 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFCC15082CE692B334DE6A73AC1B458 /* Pods-XLPagerTabStrip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XLPagerTabStrip_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B13735419A29842F3CD5796B56B02C /* MXScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXScrollViewController.h; path = Sources/MXScrollViewController.h; sourceTree = "<group>"; };
+		A1572684021FC16B60DF64CA010A14F0 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		A4BBA44C8C21029BA2E5FB61765CFCF5 /* MXParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
+		A4F00ABD576EB058C249F43B830E3B71 /* XLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.release.xcconfig; sourceTree = "<group>"; };
+		A510194576FE97003BE60FFA4426BBFE /* FPButtonBarPagerTabStripiewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPButtonBarPagerTabStripiewController.h; path = XLPagerTabStrip/Classes/FPButtonBarPagerTabStripiewController.h; sourceTree = "<group>"; };
+		A81D5BDFEFE56EBB5904EC5F5E0005D3 /* Pods-XLPagerTabStrip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XLPagerTabStrip_Example-umbrella.h"; sourceTree = "<group>"; };
+		AE198802E6554DFE416D8DA8456FAFCF /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		AE529326A397B70461F0AA3B18313027 /* MXScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollView.m; path = Sources/MXScrollView.m; sourceTree = "<group>"; };
+		AEB06F305E87BB4E9808897459908972 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B3254FEFAFE7A68A78DBAC3BCF329763 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		B393A062FCDB79D52430138485EC1057 /* Pods_XLPagerTabStrip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XLPagerTabStrip_Example.framework; path = "Pods-XLPagerTabStrip_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F5CEC84D08CDC8E2160E3D167B1314 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		B591316F8433A512EEB9BB33559141AA /* MXParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B887B219F461ADE1E8BF69E3B8CB4B8C /* FPRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPRefresh-umbrella.h"; sourceTree = "<group>"; };
+		B99F762C333A1E5D894D180C10001AC1 /* MXScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollViewController.m; path = Sources/MXScrollViewController.m; sourceTree = "<group>"; };
+		BAA4F9A071CC4DE473E4CC5C80EAECD6 /* XLBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XLBarView.m; path = XLPagerTabStrip/Classes/XLBarView.m; sourceTree = "<group>"; };
+		C1A659533C15B4D30000DEAAE8AF2DA7 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		C2D7C777A68829892E7D6A388B8E3A85 /* XLButtonBarViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLButtonBarViewCell.h; path = XLPagerTabStrip/Classes/XLButtonBarViewCell.h; sourceTree = "<group>"; };
+		C50002E195768C3AB03E8C3EB67F7029 /* FPScrollViewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPScrollViewViewController.m; path = XLPagerTabStrip/Classes/FPScrollViewViewController.m; sourceTree = "<group>"; };
+		C6D9F3E40BFD2A21CA08B4FF02F0FA5D /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		C9F6B6620D20F4D21C1A03127E18865C /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7E0EA13A7A940D21BDC75DF7038D01 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = XLPagerTabStrip/Classes/FXPageControl.m; sourceTree = "<group>"; };
+		D0261A0A75595A58DD5D3137063C4F87 /* MXParallaxHeader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXParallaxHeader.debug.xcconfig; sourceTree = "<group>"; };
+		D2326EB43A20786E4588FF904C96CEDB /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		D29FC851FC1EFB9DA2CA4A289353CB29 /* MXParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		D835467C208F54DACE77B398D1B21515 /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		D968288E977474FCB25C2F9288172A9F /* XLSegmentedPagerTabStripViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLSegmentedPagerTabStripViewController.h; path = XLPagerTabStrip/Classes/XLSegmentedPagerTabStripViewController.h; sourceTree = "<group>"; };
+		DA16562D2AB460718CC1ABA7276B06E6 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		DAD8B507CD9C550787B9572FFAE9770D /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		DCBDCECFCF51047734C3252F1416864D /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		E24A0D5E8BBFC77BDF62BD1150EDD5B9 /* XLBarPagerTabStripViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLBarPagerTabStripViewController.h; path = XLPagerTabStrip/Classes/XLBarPagerTabStripViewController.h; sourceTree = "<group>"; };
+		E30954C663C12CCC8B6199B05172D246 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJRefresh.framework; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C88A921564E239B0F5C36155833018 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		E5A1C702CE45B464313D5336FA1BCA1C /* XLPagerTabStripViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XLPagerTabStripViewController.h; path = XLPagerTabStrip/Classes/XLPagerTabStripViewController.h; sourceTree = "<group>"; };
+		E73FA21BB4C0C31AB4DB38683EF3CB37 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		E7C5169C63AB944FF34983B38AD13080 /* FPRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPRefresh-prefix.pch"; sourceTree = "<group>"; };
+		EB05AD8DE0BA39A72B8FF3A5436B92F5 /* MXParallaxHeader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXParallaxHeader.release.xcconfig; sourceTree = "<group>"; };
+		EF4AB718223D1A2E51B36AB1E9A3575A /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		F13E8187B96D0BCFB2C8585777EC51AC /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		F1709F329FCDF5CAA6FCBC99D759F270 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		F1C34C2090DC6D81CAA6F60DFA4BC692 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36D6E83360A11B0AADD4CFEF5014CC3 /* FPRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPRefresh.release.xcconfig; sourceTree = "<group>"; };
+		F5A7BBC092293CF1A9A0E19FFE021862 /* FPRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FPRefresh-Info.plist"; sourceTree = "<group>"; };
+		F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F9C144769DCE4C538D4A71752E97D2CB /* Pods-XLPagerTabStrip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XLPagerTabStrip_Example-dummy.m"; sourceTree = "<group>"; };
+		FF87DE8EA440F5C93975ACA399C70FE3 /* FPRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FPRefresh.framework; path = FPRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490304C66EE5A542C5492B8E7B8FE1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE712BE7D3548FF8C3A93A3A5F8DDCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9A92D4D1D8395052B1A42EAB7421AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D982486CA8BF6C444AAB7B391147B0 /* Foundation.framework in Frameworks */,
+				6ED52DA63811EA27047B10B0122C738F /* MJRefresh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B71031BB56AFDB56E99E1AEEAF32CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB2748F75493DC9E81C2FE69AAB1EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92289DA6CC29D50B3F2947EE395FB45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D485D4D3E5CD27B2E44EF579397C066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA30322D18798DB8C37FB6F78BA02E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEE107A97666D98F9E4DA448E09ED47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D82F2C45882F4A84888E6F86D956B98 /* Foundation.framework in Frameworks */,
+				75E0C2124CFD6FB789CB32225EA5F69A /* MXParallaxHeader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09ACD27943D30DA8C5F2C4CF6346270A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF87DE8EA440F5C93975ACA399C70FE3 /* FPRefresh.framework */,
+				E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */,
+				7BF4F9DF012C6B052F90491877CB3432 /* MXParallaxHeader.framework */,
+				B393A062FCDB79D52430138485EC1057 /* Pods_XLPagerTabStrip_Example.framework */,
+				78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */,
+				F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180BAC623A4802604145114461E11A54 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				A510194576FE97003BE60FFA4426BBFE /* FPButtonBarPagerTabStripiewController.h */,
+				017828A6C5732E5772337DE405466FEB /* FPButtonBarPagerTabStripiewController.m */,
+				12898F861EF2FF86C17FF70E488238D4 /* FPScrollViewViewController.h */,
+				C50002E195768C3AB03E8C3EB67F7029 /* FPScrollViewViewController.m */,
+				6AE6B07220D6250F4C77561CE1512061 /* FXPageControl.h */,
+				CB7E0EA13A7A940D21BDC75DF7038D01 /* FXPageControl.m */,
+				927A0B981ABD15D85E6F4EA12068A78F /* JYEqualCellSpaceFlowLayout.h */,
+				0D8CC6E4D54451B30ABB3A4B8E397790 /* JYEqualCellSpaceFlowLayout.m */,
+				E24A0D5E8BBFC77BDF62BD1150EDD5B9 /* XLBarPagerTabStripViewController.h */,
+				708AB5EC5DAD110B924968C6CED72C20 /* XLBarPagerTabStripViewController.m */,
+				1CC149CEF111C99C7777A026D6B28BF6 /* XLBarView.h */,
+				BAA4F9A071CC4DE473E4CC5C80EAECD6 /* XLBarView.m */,
+				748EAC63DE5BFE945669BBC477B26CD1 /* XLButtonBarPagerTabStripViewController.h */,
+				8D491842CC07E39EA25E5C0352F1A057 /* XLButtonBarPagerTabStripViewController.m */,
+				1AE350A510280E941C4FC64E31524BD5 /* XLButtonBarView.h */,
+				7CCC8C0374F7E33507691362D8D71C1D /* XLButtonBarView.m */,
+				C2D7C777A68829892E7D6A388B8E3A85 /* XLButtonBarViewCell.h */,
+				00E95BA50E7A5328AB2AC0D8E8402968 /* XLButtonBarViewCell.m */,
+				E5A1C702CE45B464313D5336FA1BCA1C /* XLPagerTabStripViewController.h */,
+				8FF842197D3E5376DD75C3CDA1A3D94F /* XLPagerTabStripViewController.m */,
+				D968288E977474FCB25C2F9288172A9F /* XLSegmentedPagerTabStripViewController.h */,
+				0E0BFCC451C890B6D70DF2F811BFD9B6 /* XLSegmentedPagerTabStripViewController.m */,
+				3E770F5D43947F3BB9967D2EBE6C63A7 /* XLTwitterPagerTabStripViewController.h */,
+				3DD53FA1A2515C1AC6E4357862E55D69 /* XLTwitterPagerTabStripViewController.m */,
+				94073DD226F2FBEBD7D7B9538FDEB0B6 /* Pod */,
+				D404FCC964E3B791BE9B0D428E5049C7 /* Resources */,
+				D86EA6230CC55A84E8362DCFB5621720 /* Support Files */,
+			);
+			name = XLPagerTabStrip;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1A33F312B75F29A1A67DAF29591E747C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				413F6863946777F36AD4BB41D9FF1D92 /* FPRefresh */,
+				35EEA13B6772FC3E375B7EC2485C6765 /* MJRefresh */,
+				1E203754F69F9E72E97D8FB1E60E8761 /* MXParallaxHeader */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B62398DC87E3A33A0D313ACE1D78932 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67C1DF88D479360BCBDA61265E185ACA /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1E203754F69F9E72E97D8FB1E60E8761 /* MXParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				328D5222713BA7523FDB1AF9C52A3DB7 /* MXParallaxHeader.h */,
+				5D9C7DE06F4806C9167D4E9FC638AF6C /* MXParallaxHeader.m */,
+				89C932D446264161D0593E2DC3F317DF /* MXScrollView.h */,
+				AE529326A397B70461F0AA3B18313027 /* MXScrollView.m */,
+				A0B13735419A29842F3CD5796B56B02C /* MXScrollViewController.h */,
+				B99F762C333A1E5D894D180C10001AC1 /* MXScrollViewController.m */,
+				E2089F864307E3E41ECEA73794540F4A /* Support Files */,
+			);
+			name = MXParallaxHeader;
+			path = MXParallaxHeader;
+			sourceTree = "<group>";
+		};
+		35EEA13B6772FC3E375B7EC2485C6765 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F1C34C2090DC6D81CAA6F60DFA4BC692 /* MJRefresh.h */,
+				949D4717391598D721B2745A71A69124 /* MJRefreshAutoFooter.h */,
+				764AA52A3C31C952D9308EAA91346058 /* MJRefreshAutoFooter.m */,
+				91F98596DA53BD5BBF9C1AFD42CE8F0A /* MJRefreshAutoGifFooter.h */,
+				7B2695928C8958A6B991C98F16DC588F /* MJRefreshAutoGifFooter.m */,
+				F13E8187B96D0BCFB2C8585777EC51AC /* MJRefreshAutoNormalFooter.h */,
+				9BE7C8BF399E1DCAD3346CE2C79A540D /* MJRefreshAutoNormalFooter.m */,
+				B3254FEFAFE7A68A78DBAC3BCF329763 /* MJRefreshAutoStateFooter.h */,
+				F1709F329FCDF5CAA6FCBC99D759F270 /* MJRefreshAutoStateFooter.m */,
+				7BFCED03A10AC5E9FAA8ECAF1F4C5530 /* MJRefreshBackFooter.h */,
+				9A96FF5AF7EFBFB2320329CB55A5AF58 /* MJRefreshBackFooter.m */,
+				6385EB40C66603143F80B6C5D594B079 /* MJRefreshBackGifFooter.h */,
+				D2326EB43A20786E4588FF904C96CEDB /* MJRefreshBackGifFooter.m */,
+				86EDDA7D2E8120A21C26DCCAB0C2EE60 /* MJRefreshBackNormalFooter.h */,
+				3DFA710C61868139628CC22ED00C9D37 /* MJRefreshBackNormalFooter.m */,
+				6FF229F49761A343205607757388F271 /* MJRefreshBackStateFooter.h */,
+				8981C990162D89D71478748B4A328013 /* MJRefreshBackStateFooter.m */,
+				EF4AB718223D1A2E51B36AB1E9A3575A /* MJRefreshComponent.h */,
+				97488B10E53F545BCD71BFA1768989A5 /* MJRefreshComponent.m */,
+				9015F17874F4E1D86AB92380C463E541 /* MJRefreshConfig.h */,
+				303CDEC2BAAC3F2FA40AB190387978BE /* MJRefreshConfig.m */,
+				3C4261A1127B930559E1A7BBBEDD88B9 /* MJRefreshConst.h */,
+				55281DEA794532B95F9A5EB64EAC7D45 /* MJRefreshConst.m */,
+				E4C88A921564E239B0F5C36155833018 /* MJRefreshFooter.h */,
+				3BD0D18E1B014785C37E74B7C84B5230 /* MJRefreshFooter.m */,
+				DAD8B507CD9C550787B9572FFAE9770D /* MJRefreshGifHeader.h */,
+				918CE4E95388BC7BAEA5E8D079429811 /* MJRefreshGifHeader.m */,
+				C6D9F3E40BFD2A21CA08B4FF02F0FA5D /* MJRefreshHeader.h */,
+				E30954C663C12CCC8B6199B05172D246 /* MJRefreshHeader.m */,
+				133D4B919FA4D7E1F54B7B27AB234276 /* MJRefreshNormalHeader.h */,
+				B4F5CEC84D08CDC8E2160E3D167B1314 /* MJRefreshNormalHeader.m */,
+				D835467C208F54DACE77B398D1B21515 /* MJRefreshStateHeader.h */,
+				83FCBE9CF89C6FB46737A5F64A60050B /* MJRefreshStateHeader.m */,
+				DCBDCECFCF51047734C3252F1416864D /* NSBundle+MJRefresh.h */,
+				05839C9B81125A665D144086A1678387 /* NSBundle+MJRefresh.m */,
+				1495478790C34E2F545B7292A1F79420 /* UIScrollView+MJExtension.h */,
+				051FD070AEE7B505A9F277B51437421E /* UIScrollView+MJExtension.m */,
+				AE198802E6554DFE416D8DA8456FAFCF /* UIScrollView+MJRefresh.h */,
+				5919A83363ACE626986AB997C0AC9D3E /* UIScrollView+MJRefresh.m */,
+				9C6C1C42AC1CCA99E2B66D132E1723D2 /* UIView+MJExtension.h */,
+				2E00F0E882D0485C0BF4185224ACE2C8 /* UIView+MJExtension.m */,
+				1B62398DC87E3A33A0D313ACE1D78932 /* Resources */,
+				78825C64DF04263807838ED39B62D95A /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		413F6863946777F36AD4BB41D9FF1D92 /* FPRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				56D1313933ED2F552544BC425EFB1E3B /* UIScrollView+Refresh.h */,
+				144435733E228C8F9EB5E14AFE734021 /* UIScrollView+Refresh.m */,
+				F58B24344661E323A0A6F86F5D2FAA09 /* Support Files */,
+			);
+			name = FPRefresh;
+			path = FPRefresh;
+			sourceTree = "<group>";
+		};
+		631C5484AF7991621ECC2D7D06294DC8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180BAC623A4802604145114461E11A54 /* XLPagerTabStrip */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		78825C64DF04263807838ED39B62D95A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				157807DC02FBABA339FBAB332AC3BDFA /* MJRefresh.modulemap */,
+				DA16562D2AB460718CC1ABA7276B06E6 /* MJRefresh-dummy.m */,
+				99E06792E1DFCE2A707DCB77822E491D /* MJRefresh-Info.plist */,
+				A1572684021FC16B60DF64CA010A14F0 /* MJRefresh-prefix.pch */,
+				685A03DD4D340955A180D8B8BDAC6232 /* MJRefresh-umbrella.h */,
+				992354A625576455665687ECFC8E25BC /* MJRefresh.debug.xcconfig */,
+				27A424AB730B2E3BA2444B6CB158AA06 /* MJRefresh.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		94073DD226F2FBEBD7D7B9538FDEB0B6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AEB06F305E87BB4E9808897459908972 /* LICENSE */,
+				4C2128B8E64EE1247BE9B6D29DE1E915 /* README.md */,
+				74BBFC23A128686CD006F58259F6A629 /* XLPagerTabStrip.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				631C5484AF7991621ECC2D7D06294DC8 /* Development Pods */,
+				EB45F15BBEADCFA17660797AE94B54B4 /* Frameworks */,
+				1A33F312B75F29A1A67DAF29591E747C /* Pods */,
+				09ACD27943D30DA8C5F2C4CF6346270A /* Products */,
+				FA1175690A4A8656C6C8BAFFDE6B70E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D404FCC964E3B791BE9B0D428E5049C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				035ED4A35B468E7E54648C93C5648276 /* ButtonCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D81F26827FC5CACBB0DEEACA5A568ECB /* Pods-XLPagerTabStrip_Example */ = {
+			isa = PBXGroup;
+			children = (
+				98397B8EFCA8704250FCBA1D5F8A5442 /* Pods-XLPagerTabStrip_Example.modulemap */,
+				4E57C93734FDE4E9F4E205191CD2FA3B /* Pods-XLPagerTabStrip_Example-acknowledgements.markdown */,
+				3B4000FC3D58AF785BB81C40587C964B /* Pods-XLPagerTabStrip_Example-acknowledgements.plist */,
+				F9C144769DCE4C538D4A71752E97D2CB /* Pods-XLPagerTabStrip_Example-dummy.m */,
+				485A5BEE8FBFD0CB2E8C377D54E652EF /* Pods-XLPagerTabStrip_Example-frameworks.sh */,
+				6D192A2262E647613D454700B4E8D349 /* Pods-XLPagerTabStrip_Example-Info.plist */,
+				A81D5BDFEFE56EBB5904EC5F5E0005D3 /* Pods-XLPagerTabStrip_Example-umbrella.h */,
+				9DFCC15082CE692B334DE6A73AC1B458 /* Pods-XLPagerTabStrip_Example.debug.xcconfig */,
+				459ACFECD481AED796E34B132D4B70DB /* Pods-XLPagerTabStrip_Example.release.xcconfig */,
+			);
+			name = "Pods-XLPagerTabStrip_Example";
+			path = "Target Support Files/Pods-XLPagerTabStrip_Example";
+			sourceTree = "<group>";
+		};
+		D86EA6230CC55A84E8362DCFB5621720 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D72BE32DC20AB6E957A5CB345E4E772 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */,
+				924FE5AE6A9E68B67BEEE23F40B283B0 /* XLPagerTabStrip.modulemap */,
+				E73FA21BB4C0C31AB4DB38683EF3CB37 /* XLPagerTabStrip-dummy.m */,
+				8030D170765A3B96829EE10865330AD0 /* XLPagerTabStrip-Info.plist */,
+				C1A659533C15B4D30000DEAAE8AF2DA7 /* XLPagerTabStrip-prefix.pch */,
+				52291EAB9A4DAD53407CCE597DFE294E /* XLPagerTabStrip-umbrella.h */,
+				5F85D665B3DE156F3275AC9CCEBA5CEC /* XLPagerTabStrip.debug.xcconfig */,
+				A4F00ABD576EB058C249F43B830E3B71 /* XLPagerTabStrip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		E2089F864307E3E41ECEA73794540F4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E905E879BF919755BF95419D1B1247B /* MXParallaxHeader.modulemap */,
+				3F63C849940C2EE10D4B1A7198BC9031 /* MXParallaxHeader-dummy.m */,
+				3338CA48C761235177F2FE591B3E8D2F /* MXParallaxHeader-Info.plist */,
+				D29FC851FC1EFB9DA2CA4A289353CB29 /* MXParallaxHeader-prefix.pch */,
+				A4BBA44C8C21029BA2E5FB61765CFCF5 /* MXParallaxHeader-umbrella.h */,
+				D0261A0A75595A58DD5D3137063C4F87 /* MXParallaxHeader.debug.xcconfig */,
+				EB05AD8DE0BA39A72B8FF3A5436B92F5 /* MXParallaxHeader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MXParallaxHeader";
+			sourceTree = "<group>";
+		};
+		EB45F15BBEADCFA17660797AE94B54B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F6B6620D20F4D21C1A03127E18865C /* MJRefresh.framework */,
+				B591316F8433A512EEB9BB33559141AA /* MXParallaxHeader.framework */,
+				F76C6E9041FADD8631A8F98EC9E955E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F58B24344661E323A0A6F86F5D2FAA09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74EDD692FED9DE9B899A6D34FE18BEA6 /* FPRefresh.modulemap */,
+				85D964C7FF7C07327B0D09067D396705 /* FPRefresh-dummy.m */,
+				F5A7BBC092293CF1A9A0E19FFE021862 /* FPRefresh-Info.plist */,
+				E7C5169C63AB944FF34983B38AD13080 /* FPRefresh-prefix.pch */,
+				B887B219F461ADE1E8BF69E3B8CB4B8C /* FPRefresh-umbrella.h */,
+				4427CCF03E8351D5AE464A5FF8CBB86F /* FPRefresh.debug.xcconfig */,
+				F36D6E83360A11B0AADD4CFEF5014CC3 /* FPRefresh.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FPRefresh";
+			sourceTree = "<group>";
+		};
+		F76C6E9041FADD8631A8F98EC9E955E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F74CDA3A5D1A252F15EA7A2E3FD77B9C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FA1175690A4A8656C6C8BAFFDE6B70E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D81F26827FC5CACBB0DEEACA5A568ECB /* Pods-XLPagerTabStrip_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2588A409B92AFAFC6ED1C28A43268FEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F0FC203FC938E39B9885E6B780328B /* MXParallaxHeader-umbrella.h in Headers */,
+				5C96BB0A521A6633286F050C3D3353D7 /* MXParallaxHeader.h in Headers */,
+				72EBA2C5814BC6327DFCD5E75ABABFE6 /* MXScrollView.h in Headers */,
+				06F9749CB169D6D27B1FA53F7C54A991 /* MXScrollViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9F5333427C409D13284767024B359E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A02A0532358FF91CB2E5771A8A595E /* MJRefresh-umbrella.h in Headers */,
+				32B5A84A07A58A434DF888B1E3BFB017 /* MJRefresh.h in Headers */,
+				DB5CEB26A209094EFF7E63EF91664946 /* MJRefreshAutoFooter.h in Headers */,
+				9A00FD8A718B0C190D562593C556B1EB /* MJRefreshAutoGifFooter.h in Headers */,
+				B1AEC13169EE06EEF6E2680BD498B478 /* MJRefreshAutoNormalFooter.h in Headers */,
+				FFA5B830AD2B7248DA59D51876826C70 /* MJRefreshAutoStateFooter.h in Headers */,
+				2F7829736B655ABCF061AB51F933CD41 /* MJRefreshBackFooter.h in Headers */,
+				AF133E6D88F866B9F7056005CDDDB233 /* MJRefreshBackGifFooter.h in Headers */,
+				E6574AEEF3BD26BB161570FC797AFC60 /* MJRefreshBackNormalFooter.h in Headers */,
+				170B369E3F34B838A069B9B73F248824 /* MJRefreshBackStateFooter.h in Headers */,
+				27976185912FEA2508B57A6E47D4A617 /* MJRefreshComponent.h in Headers */,
+				F0D6C6B4AC992B43EF9D234E69DA7011 /* MJRefreshConfig.h in Headers */,
+				05B1F51830812CE9758896D52B25E974 /* MJRefreshConst.h in Headers */,
+				46FBB606881F2C3D55604A011FF7B239 /* MJRefreshFooter.h in Headers */,
+				55A9CC32CF24B42EDD82F63D43F45CB4 /* MJRefreshGifHeader.h in Headers */,
+				547E46FDA1C4E8996B88154C6CD62A39 /* MJRefreshHeader.h in Headers */,
+				25E175880FB2667AF8EE4DEFC2DB576D /* MJRefreshNormalHeader.h in Headers */,
+				8A8C96B070A3E4EBACCF63634E453B6D /* MJRefreshStateHeader.h in Headers */,
+				4FCABB8482581FFC63C584CA7747EDFA /* NSBundle+MJRefresh.h in Headers */,
+				052C5E07344A7A7953FBBA67076DC0E3 /* UIScrollView+MJExtension.h in Headers */,
+				B5773612B78B4223654056773BA36A26 /* UIScrollView+MJRefresh.h in Headers */,
+				E1175304A5DF0D9F44B247963B2494C9 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		573A0BF5594D75F7ABC4B4FE0400835F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2445C54940AF378440B3BD95F96DB967 /* FPButtonBarPagerTabStripiewController.h in Headers */,
+				9EAABD2DF0DEC9C292DFC5BFACA7DFC3 /* FPScrollViewViewController.h in Headers */,
+				97DE533C8D9490EA07953A9162413CFB /* FXPageControl.h in Headers */,
+				6AB7F8BD20C51E43BCC302EF2C9AFC97 /* JYEqualCellSpaceFlowLayout.h in Headers */,
+				DF86AD9BD23D8A93EA93302E14BCCE4E /* XLBarPagerTabStripViewController.h in Headers */,
+				D52113FDACDADECEC41892CFC6736F5A /* XLBarView.h in Headers */,
+				DAFC6C6E783208591EDE8EA971B56B1C /* XLButtonBarPagerTabStripViewController.h in Headers */,
+				F58D319096F3539A56E82BC3E8D01242 /* XLButtonBarView.h in Headers */,
+				CE20FD563BBDD38378A92379B09058A6 /* XLButtonBarViewCell.h in Headers */,
+				A2972A1E5AB1DC0FD52F275E748D09A2 /* XLPagerTabStrip-umbrella.h in Headers */,
+				0478BD0EE4E3935F74547CCABA5D4854 /* XLPagerTabStripViewController.h in Headers */,
+				B722453E3924FE12B1F09052353A7524 /* XLSegmentedPagerTabStripViewController.h in Headers */,
+				8AC15E5242ED60E4224CAF766495E74A /* XLTwitterPagerTabStripViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD05BAA45C21908A880C4AE60D5A49E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4683E3F878B9F9000679920452AFA35E /* Pods-XLPagerTabStrip_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C01F30FD061AD94B2645D70635E421 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CA1CED82635314C2C3DD18FFA2D2A1 /* FPRefresh-umbrella.h in Headers */,
+				E984B69E710665167BF12EA988C2B0CB /* UIScrollView+Refresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		356D6B9C9A6B4A906F67054D67A6EFD0 /* Pods-XLPagerTabStrip_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDE213D5B9A43A1231A8C2569A70DDA /* Build configuration list for PBXNativeTarget "Pods-XLPagerTabStrip_Example" */;
+			buildPhases = (
+				AD05BAA45C21908A880C4AE60D5A49E2 /* Headers */,
+				BD23BC1A4AABE33D8C77603D4F959070 /* Sources */,
+				D485D4D3E5CD27B2E44EF579397C066A /* Frameworks */,
+				126963CE92269DAD0998602017AF854E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BDE7C011B8ED9B9C94CF95085C89C2 /* PBXTargetDependency */,
+				4A9AEF23ADB23891C677F981D2214AA8 /* PBXTargetDependency */,
+				7EF7045795AA368BF040912A03D1B3FB /* PBXTargetDependency */,
+				39AE678ED7BA675439EF546823D25A7C /* PBXTargetDependency */,
+			);
+			name = "Pods-XLPagerTabStrip_Example";
+			productName = "Pods-XLPagerTabStrip_Example";
+			productReference = B393A062FCDB79D52430138485EC1057 /* Pods_XLPagerTabStrip_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF13E948B679DAA7A7CB4FC069252B5 /* FPRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A198AC9A882DB4F34C61B10CD2572E2 /* Build configuration list for PBXNativeTarget "FPRefresh" */;
+			buildPhases = (
+				B1C01F30FD061AD94B2645D70635E421 /* Headers */,
+				DAF6DAB0F00E8A9925062CA17A64FE39 /* Sources */,
+				4D9A92D4D1D8395052B1A42EAB7421AD /* Frameworks */,
+				49F8CC5BA27B06E9F05D059A8467DA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75D555C3A4288A627244C2BC0460F90 /* PBXTargetDependency */,
+			);
+			name = FPRefresh;
+			productName = FPRefresh;
+			productReference = FF87DE8EA440F5C93975ACA399C70FE3 /* FPRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6281FA5C543DCAF5F50334A8E67CDD83 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				4A9F5333427C409D13284767024B359E /* Headers */,
+				A45DB8D6872BDB15026B8176EB7521D4 /* Sources */,
+				BDB2748F75493DC9E81C2FE69AAB1EBA /* Frameworks */,
+				74BFCC11979D56E5FD6E7F38679C8ADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = E49D6D248DD1CEE584E6776B9164A1B2 /* MJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871A5E2CBE1628F45D9198E40CDE0E13 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				573A0BF5594D75F7ABC4B4FE0400835F /* Headers */,
+				7497629C16F4ABBE9EED66B333544DFC /* Sources */,
+				FDEE107A97666D98F9E4DA448E09ED47 /* Frameworks */,
+				1E482415CA7CD758BEA9A917C60C90F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058ED7C4299B65B0A1F658B7E900FC7D /* PBXTargetDependency */,
+				FB963F2E85CA234A516F57BA3D379354 /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B4BC2DFBB6A263DC58292375A52749 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				76DB1166EC934FABDF38913C48FFC6A6 /* Sources */,
+				6B71031BB56AFDB56E99E1AEEAF32CCA /* Frameworks */,
+				625F730F063251BCD1BBEAD7E9FBDCBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F65C0EE8AF6DB74ABBACA4A3A11CE230 /* MXParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B7450CEFD0C80173F115D007CD2563 /* Build configuration list for PBXNativeTarget "MXParallaxHeader" */;
+			buildPhases = (
+				2588A409B92AFAFC6ED1C28A43268FEC /* Headers */,
+				10437E05BEEB38BD799BBB1B7B893197 /* Sources */,
+				490304C66EE5A542C5492B8E7B8FE1EC /* Frameworks */,
+				AA57FF87A557720F2BA9FD8000E42FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXParallaxHeader;
+			productName = MXParallaxHeader;
+			productReference = 7BF4F9DF012C6B052F90491877CB3432 /* MXParallaxHeader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 09ACD27943D30DA8C5F2C4CF6346270A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF13E948B679DAA7A7CB4FC069252B5 /* FPRefresh */,
+				6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */,
+				F65C0EE8AF6DB74ABBACA4A3A11CE230 /* MXParallaxHeader */,
+				356D6B9C9A6B4A906F67054D67A6EFD0 /* Pods-XLPagerTabStrip_Example */,
+				DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */,
+				EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126963CE92269DAD0998602017AF854E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E482415CA7CD758BEA9A917C60C90F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70724211BFF0CA16942369E1C10400A1 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F8CC5BA27B06E9F05D059A8467DA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625F730F063251BCD1BBEAD7E9FBDCBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA6CE051593378D6155ACE4EDD07207 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74BFCC11979D56E5FD6E7F38679C8ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB826B3362550CC7D47A971BC60E06E3 /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA57FF87A557720F2BA9FD8000E42FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10437E05BEEB38BD799BBB1B7B893197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5D1D4ECC704157894908B9D59540CD /* MXParallaxHeader-dummy.m in Sources */,
+				195E52C5242A95E5255DD35112C634C3 /* MXParallaxHeader.m in Sources */,
+				C1DAABD762BF92705CAC62189FB2A1BF /* MXScrollView.m in Sources */,
+				ABF31ADBBE69F779649FC4D51A1ACC48 /* MXScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7497629C16F4ABBE9EED66B333544DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066CDAB5D413946D766BF65B8B00E5BC /* FPButtonBarPagerTabStripiewController.m in Sources */,
+				264718395BE568E8C1C942E1968230ED /* FPScrollViewViewController.m in Sources */,
+				E7681E9575ED5CD1D9DA423127BB6A8A /* FXPageControl.m in Sources */,
+				ED7616059FA79FC3912142204D23CC67 /* JYEqualCellSpaceFlowLayout.m in Sources */,
+				AC609C15B605F9538A679B6B2EA2802C /* XLBarPagerTabStripViewController.m in Sources */,
+				A6F12F3E36A6350239FA9BD25CB91379 /* XLBarView.m in Sources */,
+				55361EFEEB31355F5E6E8D60F26D9614 /* XLButtonBarPagerTabStripViewController.m in Sources */,
+				4B3066C36BA684DE618CB8D30DC23488 /* XLButtonBarView.m in Sources */,
+				D37B57E90037257E5ADEFC9A707C2997 /* XLButtonBarViewCell.m in Sources */,
+				069023625F4C528C74CCC9C170CBF0E0 /* XLPagerTabStrip-dummy.m in Sources */,
+				8F9B9A6EBDD0395E9195FF4E319A0A88 /* XLPagerTabStripViewController.m in Sources */,
+				5334E6E891E56E253FAF6B62C7F33018 /* XLSegmentedPagerTabStripViewController.m in Sources */,
+				A10C8632E37C066ED8BA58BF4E0DE9DD /* XLTwitterPagerTabStripViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DB1166EC934FABDF38913C48FFC6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45DB8D6872BDB15026B8176EB7521D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31AC9C6A4CDC0EB061D151B5F76C78A1 /* MJRefresh-dummy.m in Sources */,
+				89EE67DDB4E24075C620B89A94291FE5 /* MJRefreshAutoFooter.m in Sources */,
+				0C5DE11C693F0CCE0D734316CCDCA7EA /* MJRefreshAutoGifFooter.m in Sources */,
+				B4F7A00EAD62E5E297C31E42943E27D6 /* MJRefreshAutoNormalFooter.m in Sources */,
+				947DD5595E8C349827020106B873E17C /* MJRefreshAutoStateFooter.m in Sources */,
+				9ABCB5BE75E4172302772616E5C9EB4A /* MJRefreshBackFooter.m in Sources */,
+				102F5B9A1BF5BFB1092DB507FAC98440 /* MJRefreshBackGifFooter.m in Sources */,
+				17ED26E6E42D0684F4E946D3B6670C6F /* MJRefreshBackNormalFooter.m in Sources */,
+				A56A6728E719AECC463494DB73999ED1 /* MJRefreshBackStateFooter.m in Sources */,
+				223BCBDF779CF7E23751F92B8C1FD7D2 /* MJRefreshComponent.m in Sources */,
+				CE4421F77EBDF29C8BB53E593F1B862F /* MJRefreshConfig.m in Sources */,
+				6BC57F46AC7C00B2D813DB624739B76A /* MJRefreshConst.m in Sources */,
+				B94723A642EF83BA127C0F0FBDAC175B /* MJRefreshFooter.m in Sources */,
+				C74D82D5FB477D67308F122C2D7BD71F /* MJRefreshGifHeader.m in Sources */,
+				C20B3226BE62B766ED1F108EA69B987C /* MJRefreshHeader.m in Sources */,
+				AF5A67C13AA6870A2DD096BF89EE2278 /* MJRefreshNormalHeader.m in Sources */,
+				B648D97DA48A944C095644B84D76DDC0 /* MJRefreshStateHeader.m in Sources */,
+				6D18D4EA1188910BDC6F9385139AAC52 /* NSBundle+MJRefresh.m in Sources */,
+				9068B04DB67FF298CB6179DC3E4F26C8 /* UIScrollView+MJExtension.m in Sources */,
+				79310A4D2517B65160E624FFBC9E45A1 /* UIScrollView+MJRefresh.m in Sources */,
+				C1775E927EBD07039ECF5A8392836AD3 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD23BC1A4AABE33D8C77603D4F959070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C629F3B3F5635F532DEE2AE343E700 /* Pods-XLPagerTabStrip_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF6DAB0F00E8A9925062CA17A64FE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4466F387DFB798DF1C81A29E2923433C /* FPRefresh-dummy.m in Sources */,
+				FD3051A697F398EC72B3E898FCB820C5 /* UIScrollView+Refresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BDE7C011B8ED9B9C94CF95085C89C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPRefresh;
+			target = 5AF13E948B679DAA7A7CB4FC069252B5 /* FPRefresh */;
+			targetProxy = 6F6E97BE5F0809EB647178321F4CFC46 /* PBXContainerItemProxy */;
+		};
+		058ED7C4299B65B0A1F658B7E900FC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXParallaxHeader;
+			target = F65C0EE8AF6DB74ABBACA4A3A11CE230 /* MXParallaxHeader */;
+			targetProxy = BD1CA089B092C8D8F61303E0BFD8E8BC /* PBXContainerItemProxy */;
+		};
+		39AE678ED7BA675439EF546823D25A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */;
+			targetProxy = 825FE2F01CA9158E2BBED37042032E7F /* PBXContainerItemProxy */;
+		};
+		4A9AEF23ADB23891C677F981D2214AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = 951212653C37AE686C172E12824853C1 /* PBXContainerItemProxy */;
+		};
+		7EF7045795AA368BF040912A03D1B3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MXParallaxHeader;
+			target = F65C0EE8AF6DB74ABBACA4A3A11CE230 /* MXParallaxHeader */;
+			targetProxy = 31B70A30524C46BA1B7FE7C520CCB16C /* PBXContainerItemProxy */;
+		};
+		F75D555C3A4288A627244C2BC0460F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 6868056D761E163D10FDAF8CF1C4D9B8 /* MJRefresh */;
+			targetProxy = 1D18D03FE2325E5406A0880C3D9839CC /* PBXContainerItemProxy */;
+		};
+		FB963F2E85CA234A516F57BA3D379354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 3DAFC52E4F7027C90B2EAD98FB5E83B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2204F0A900BFA034D3789DD9B1D9E381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36D6E83360A11B0AADD4CFEF5014CC3 /* FPRefresh.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPRefresh/FPRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPRefresh/FPRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPRefresh/FPRefresh.modulemap";
+				PRODUCT_MODULE_NAME = FPRefresh;
+				PRODUCT_NAME = FPRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D2EAC9C5E545B088DA2ED8E40329B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB05AD8DE0BA39A72B8FF3A5436B92F5 /* MXParallaxHeader.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXParallaxHeader/MXParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXParallaxHeader/MXParallaxHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXParallaxHeader/MXParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = MXParallaxHeader;
+				PRODUCT_NAME = MXParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44AAF5AAA6079FFB341D823AC4DFCE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A424AB730B2E3BA2444B6CB158AA06 /* MJRefresh.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57665F7256EE1ACED131EFCD528AD468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F85D665B3DE156F3275AC9CCEBA5CEC /* XLPagerTabStrip.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		65488996356B5BB7C26DA93320ECBDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F85D665B3DE156F3275AC9CCEBA5CEC /* XLPagerTabStrip.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75E02AB9BD932E82837F926FF6467913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992354A625576455665687ECFC8E25BC /* MJRefresh.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/MJRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9767E4F4BA93AA565E2283EA77C7D522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F00ABD576EB058C249F43B830E3B71 /* XLPagerTabStrip.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_MODULE_NAME = XLPagerTabStrip;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2B9210CEC6601BD9865AC089509EE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459ACFECD481AED796E34B132D4B70DB /* Pods-XLPagerTabStrip_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XLPagerTabStrip_Example/Pods-XLPagerTabStrip_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XLPagerTabStrip_Example/Pods-XLPagerTabStrip_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE702B021FC521A27207F3E8DB060671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0261A0A75595A58DD5D3137063C4F87 /* MXParallaxHeader.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXParallaxHeader/MXParallaxHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXParallaxHeader/MXParallaxHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXParallaxHeader/MXParallaxHeader.modulemap";
+				PRODUCT_MODULE_NAME = MXParallaxHeader;
+				PRODUCT_NAME = MXParallaxHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF5EA3AADB8A0CA44E6E1A66687395FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F00ABD576EB058C249F43B830E3B71 /* XLPagerTabStrip.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				IBSC_MODULE = XLPagerTabStrip;
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F6D208F74DA3C9276007E945FB945C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFCC15082CE692B334DE6A73AC1B458 /* Pods-XLPagerTabStrip_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XLPagerTabStrip_Example/Pods-XLPagerTabStrip_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XLPagerTabStrip_Example/Pods-XLPagerTabStrip_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF2C69B545A6029B850484F23437D3B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4427CCF03E8351D5AE464A5FF8CBB86F /* FPRefresh.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FPRefresh/FPRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FPRefresh/FPRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FPRefresh/FPRefresh.modulemap";
+				PRODUCT_MODULE_NAME = FPRefresh;
+				PRODUCT_NAME = FPRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B4BC2DFBB6A263DC58292375A52749 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57665F7256EE1ACED131EFCD528AD468 /* Debug */,
+				EF5EA3AADB8A0CA44E6E1A66687395FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6281FA5C543DCAF5F50334A8E67CDD83 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E02AB9BD932E82837F926FF6467913 /* Debug */,
+				44AAF5AAA6079FFB341D823AC4DFCE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A198AC9A882DB4F34C61B10CD2572E2 /* Build configuration list for PBXNativeTarget "FPRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2C69B545A6029B850484F23437D3B9 /* Debug */,
+				2204F0A900BFA034D3789DD9B1D9E381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDE213D5B9A43A1231A8C2569A70DDA /* Build configuration list for PBXNativeTarget "Pods-XLPagerTabStrip_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D208F74DA3C9276007E945FB945C78 /* Debug */,
+				B2B9210CEC6601BD9865AC089509EE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871A5E2CBE1628F45D9198E40CDE0E13 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65488996356B5BB7C26DA93320ECBDA5 /* Debug */,
+				9767E4F4BA93AA565E2283EA77C7D522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B7450CEFD0C80173F115D007CD2563 /* Build configuration list for PBXNativeTarget "MXParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE702B021FC521A27207F3E8DB060671 /* Debug */,
+				3D2EAC9C5E545B088DA2ED8E40329B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
