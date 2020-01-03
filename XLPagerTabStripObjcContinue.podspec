@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XLPagerTabStripObjcContinue'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of XLPagerTabStripObjcContinue.'
 
 # This description is used to generate tags and improve search results.
@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/FPJack/XLPagerTabStripObjcContinue.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-#  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'XLPagerTabStripObjcContinue/Classes/**/*'
   
-   s.resource_bundles = {
-     'XLPagerTabStripObjcContinue' => ['XLPagerTabStripObjcContinue/Assets/*.png','XLPagerTabStripObjcContinue/Assets/*.xib']
-   }
+#   s.resource_bundles = {
+#     'XLPagerTabStripObjcContinue' => ['XLPagerTabStripObjcContinue/Assets/*.png','XLPagerTabStripObjcContinue/Assets/*.xib']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -43,6 +43,9 @@ TODO: Add long description of the pod here.
   s.subspec 'XLPagerTabStrip' do |x|
   x.ios.deployment_target = '9.0'
   x.source_files = 'XLPagerTabStripObjcContinue/Classes/XLPagerTabStrip/*.{h,m}'
+  x.resource_bundles = {
+    'XLPagerTabStripObjcContinue' => ['XLPagerTabStripObjcContinue/Assets/*.png','XLPagerTabStripObjcContinue/Assets/*.xib']
+  }
   end
   
   s.subspec 'MXParallaxHeader' do |m|

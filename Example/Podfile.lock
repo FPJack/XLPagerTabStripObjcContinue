@@ -6,13 +6,13 @@ PODS:
     - MJRefresh
   - MJRefresh (3.3.1)
   - MXParallaxHeader (1.1.0)
-  - XLPagerTabStripObjcContinue (1.0.1):
-    - XLPagerTabStripObjcContinue/MXParallaxHeader (= 1.0.1)
-    - XLPagerTabStripObjcContinue/XLPagerTabStrip (= 1.0.1)
-  - XLPagerTabStripObjcContinue/MXParallaxHeader (1.0.1):
+  - XLPagerTabStripObjcContinue (1.0.2):
+    - XLPagerTabStripObjcContinue/MXParallaxHeader (= 1.0.2)
+    - XLPagerTabStripObjcContinue/XLPagerTabStrip (= 1.0.2)
+  - XLPagerTabStripObjcContinue/MXParallaxHeader (1.0.2):
     - MXParallaxHeader (~> 1.1.0)
     - XLPagerTabStripObjcContinue/XLPagerTabStrip
-  - XLPagerTabStripObjcContinue/XLPagerTabStrip (1.0.1)
+  - XLPagerTabStripObjcContinue/XLPagerTabStrip (1.0.2)
 
 DEPENDENCIES:
   - FPRefresh
@@ -32,7 +32,7 @@ SPEC CHECKSUMS:
   FPRefresh: 46fa191076ac3186a4dd0f0c636ecd9b13f79475
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   MXParallaxHeader: de3c867e10ba46e8f6e20c8ee1f2a910372b3b94
-  XLPagerTabStripObjcContinue: d4455c2d8620726e49011f490f4ea7ce6532da33
+  XLPagerTabStripObjcContinue: 3e9a240cc3d134ceedab69e7f09687a628e5856a
 
 PODFILE CHECKSUM: 11297381223c2c51f2a009926b881910c707fca3
 
