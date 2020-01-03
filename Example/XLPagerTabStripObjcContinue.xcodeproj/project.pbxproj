@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0410683A23BEE7D00022E997 /* KLCustomHeaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0410682F23BEE7D00022E997 /* KLCustomHeaderVC.xib */; };
+		0410683B23BEE7D00022E997 /* KLCustomSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410683523BEE7D00022E997 /* KLCustomSubVC.m */; };
+		0410683C23BEE7D00022E997 /* KLCustomHeaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410683623BEE7D00022E997 /* KLCustomHeaderVC.m */; };
+		0410683D23BEE7D00022E997 /* MXScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410683723BEE7D00022E997 /* MXScrollViewVC.m */; };
+		0410683E23BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410683823BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.m */; };
+		0410683F23BEE7D00022E997 /* MXScrollViewSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0410683923BEE7D00022E997 /* MXScrollViewSubVC.m */; };
+		0410684223BEE7DA0022E997 /* yangquanxuzhi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0410684023BEE7DA0022E997 /* yangquanxuzhi@3x.png */; };
+		0410684323BEE7DA0022E997 /* yangquanxuzhi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0410684123BEE7DA0022E997 /* yangquanxuzhi@2x.png */; };
 		413DCB8F37B6CD8E960A5987 /* Pods_XLPagerTabStripObjcContinue_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007EA0F3172F038FBECDAEFE /* Pods_XLPagerTabStripObjcContinue_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -23,7 +31,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FE2579DAF65F50D23417B726 /* Pods_XLPagerTabStripObjcContinue_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46155E963EFB0422E9F55A76 /* Pods_XLPagerTabStripObjcContinue_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +45,23 @@
 
 /* Begin PBXFileReference section */
 		007EA0F3172F038FBECDAEFE /* Pods_XLPagerTabStripObjcContinue_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripObjcContinue_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410682F23BEE7D00022E997 /* KLCustomHeaderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KLCustomHeaderVC.xib; sourceTree = "<group>"; };
+		0410683023BEE7D00022E997 /* KLCustomHeaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCustomHeaderVC.h; sourceTree = "<group>"; };
+		0410683123BEE7D00022E997 /* KLCustomSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCustomSubVC.h; sourceTree = "<group>"; };
+		0410683223BEE7D00022E997 /* MXScrollViewSubVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScrollViewSubVC.h; sourceTree = "<group>"; };
+		0410683323BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCustomButtonBarPagerTabStripVC.h; sourceTree = "<group>"; };
+		0410683423BEE7D00022E997 /* MXScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXScrollViewVC.h; sourceTree = "<group>"; };
+		0410683523BEE7D00022E997 /* KLCustomSubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCustomSubVC.m; sourceTree = "<group>"; };
+		0410683623BEE7D00022E997 /* KLCustomHeaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCustomHeaderVC.m; sourceTree = "<group>"; };
+		0410683723BEE7D00022E997 /* MXScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScrollViewVC.m; sourceTree = "<group>"; };
+		0410683823BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCustomButtonBarPagerTabStripVC.m; sourceTree = "<group>"; };
+		0410683923BEE7D00022E997 /* MXScrollViewSubVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXScrollViewSubVC.m; sourceTree = "<group>"; };
+		0410684023BEE7DA0022E997 /* yangquanxuzhi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yangquanxuzhi@3x.png"; sourceTree = "<group>"; };
+		0410684123BEE7DA0022E997 /* yangquanxuzhi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yangquanxuzhi@2x.png"; sourceTree = "<group>"; };
 		1870DBBB5FEC05F4ADD478E6 /* Pods-XLPagerTabStripObjcContinue_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripObjcContinue_Example.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripObjcContinue_Example/Pods-XLPagerTabStripObjcContinue_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27A7B3E2B9B626115751AFDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		28CC62DC566A4CC8D2644904 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2B33FECB3E6B6E982DA99C9B /* Pods-XLPagerTabStripObjcContinue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripObjcContinue_Tests.release.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripObjcContinue_Tests/Pods-XLPagerTabStripObjcContinue_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46155E963EFB0422E9F55A76 /* Pods_XLPagerTabStripObjcContinue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLPagerTabStripObjcContinue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CB2C038D148D18EBD77658 /* XLPagerTabStripObjcContinue.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XLPagerTabStripObjcContinue.podspec; path = ../XLPagerTabStripObjcContinue.podspec; sourceTree = "<group>"; };
+		27A7B3E2B9B626115751AFDA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		28CC62DC566A4CC8D2644904 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		55CB2C038D148D18EBD77658 /* XLPagerTabStripObjcContinue.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XLPagerTabStripObjcContinue.podspec; path = ../XLPagerTabStripObjcContinue.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* XLPagerTabStripObjcContinue_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPagerTabStripObjcContinue_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +84,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		963D6E5F02ACDD9CC42728AF /* Pods-XLPagerTabStripObjcContinue_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripObjcContinue_Example.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripObjcContinue_Example/Pods-XLPagerTabStripObjcContinue_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9E61CCD59E8580AF60658ED4 /* Pods-XLPagerTabStripObjcContinue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPagerTabStripObjcContinue_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XLPagerTabStripObjcContinue_Tests/Pods-XLPagerTabStripObjcContinue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +105,30 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				FE2579DAF65F50D23417B726 /* Pods_XLPagerTabStripObjcContinue_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0410682E23BEE7D00022E997 /* XLPageVC */ = {
+			isa = PBXGroup;
+			children = (
+				0410682F23BEE7D00022E997 /* KLCustomHeaderVC.xib */,
+				0410683023BEE7D00022E997 /* KLCustomHeaderVC.h */,
+				0410683123BEE7D00022E997 /* KLCustomSubVC.h */,
+				0410683223BEE7D00022E997 /* MXScrollViewSubVC.h */,
+				0410683323BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.h */,
+				0410683423BEE7D00022E997 /* MXScrollViewVC.h */,
+				0410683523BEE7D00022E997 /* KLCustomSubVC.m */,
+				0410683623BEE7D00022E997 /* KLCustomHeaderVC.m */,
+				0410683723BEE7D00022E997 /* MXScrollViewVC.m */,
+				0410683823BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.m */,
+				0410683923BEE7D00022E997 /* MXScrollViewSubVC.m */,
+			);
+			path = XLPageVC;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +158,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				007EA0F3172F038FBECDAEFE /* Pods_XLPagerTabStripObjcContinue_Example.framework */,
-				46155E963EFB0422E9F55A76 /* Pods_XLPagerTabStripObjcContinue_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +165,9 @@
 		6003F593195388D20070C39A /* Example for XLPagerTabStripObjcContinue */ = {
 			isa = PBXGroup;
 			children = (
+				0410684123BEE7DA0022E997 /* yangquanxuzhi@2x.png */,
+				0410684023BEE7DA0022E997 /* yangquanxuzhi@3x.png */,
+				0410682E23BEE7D00022E997 /* XLPageVC */,
 				6003F59C195388D20070C39A /* FPAppDelegate.h */,
 				6003F59D195388D20070C39A /* FPAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -190,10 +226,7 @@
 			children = (
 				963D6E5F02ACDD9CC42728AF /* Pods-XLPagerTabStripObjcContinue_Example.debug.xcconfig */,
 				1870DBBB5FEC05F4ADD478E6 /* Pods-XLPagerTabStripObjcContinue_Example.release.xcconfig */,
-				9E61CCD59E8580AF60658ED4 /* Pods-XLPagerTabStripObjcContinue_Tests.debug.xcconfig */,
-				2B33FECB3E6B6E982DA99C9B /* Pods-XLPagerTabStripObjcContinue_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,7 +256,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "XLPagerTabStripObjcContinue_Tests" */;
 			buildPhases = (
-				C0D3442E6E8A2A0B1F2268E8 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -248,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = FPJack;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MSL77HGY8X;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +293,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,7 +315,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				0410684223BEE7DA0022E997 /* yangquanxuzhi@3x.png in Resources */,
+				0410683A23BEE7D00022E997 /* KLCustomHeaderVC.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				0410684323BEE7DA0022E997 /* yangquanxuzhi@2x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,37 +363,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripObjcContinue_Example/Pods-XLPagerTabStripObjcContinue_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FPRefresh/FPRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MXParallaxHeader/MXParallaxHeader.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStripObjcContinue/XLPagerTabStripObjcContinue.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FPRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXParallaxHeader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStripObjcContinue.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XLPagerTabStripObjcContinue_Example/Pods-XLPagerTabStripObjcContinue_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0D3442E6E8A2A0B1F2268E8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XLPagerTabStripObjcContinue_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,9 +387,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0410683F23BEE7D00022E997 /* MXScrollViewSubVC.m in Sources */,
+				0410683C23BEE7D00022E997 /* KLCustomHeaderVC.m in Sources */,
 				6003F59E195388D20070C39A /* FPAppDelegate.m in Sources */,
+				0410683E23BEE7D00022E997 /* KLCustomButtonBarPagerTabStripVC.m in Sources */,
 				6003F5A7195388D20070C39A /* FPViewController.m in Sources */,
+				0410683D23BEE7D00022E997 /* MXScrollViewVC.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0410683B23BEE7D00022E997 /* KLCustomSubVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,11 +522,12 @@
 			baseConfigurationReference = 963D6E5F02ACDD9CC42728AF /* Pods-XLPagerTabStripObjcContinue_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSL77HGY8X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLPagerTabStripObjcContinue/XLPagerTabStripObjcContinue-Prefix.pch";
 				INFOPLIST_FILE = "XLPagerTabStripObjcContinue/XLPagerTabStripObjcContinue-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhichongjia.ZhiChongRadar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +539,12 @@
 			baseConfigurationReference = 1870DBBB5FEC05F4ADD478E6 /* Pods-XLPagerTabStripObjcContinue_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MSL77HGY8X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XLPagerTabStripObjcContinue/XLPagerTabStripObjcContinue-Prefix.pch";
 				INFOPLIST_FILE = "XLPagerTabStripObjcContinue/XLPagerTabStripObjcContinue-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhichongjia.ZhiChongRadar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -523,7 +553,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E61CCD59E8580AF60658ED4 /* Pods-XLPagerTabStripObjcContinue_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +577,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B33FECB3E6B6E982DA99C9B /* Pods-XLPagerTabStripObjcContinue_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
