@@ -19,9 +19,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 保留了XLPagerTabStrip的所有功能，XLPagerTabStrip详细用法请参考作者框架 
 新增FPButtonBarPagerTabStripiewController类控制对齐方式和间距 
+
 pod 'XLPagerTabStripObjcContinue/XLPagerTabStrip'
 
-新增FPScrollViewViewController类整合MXParallaxHeader上下滑动和XLPagerTabStrip左右分页功能，具体用法请参考demo
+新增FPScrollViewViewController类MXParallaxHeader上下滑动
+
 pod 'XLPagerTabStripObjcContinue/MXParallaxHeader'
 
 ```
